@@ -1,0 +1,60 @@
+[ 50%] Building CXX object CMakeFiles/autonomous_driving.dir/src/autonomous_driving.cpp.o
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp: In member function ‘void AutonomousDriving::Init(const rclcpp::Time&)’:
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:132:50: warning: unused parameter ‘current_time’ [-Wunused-parameter]
+  132 | void AutonomousDriving::Init(const rclcpp::Time &current_time) {
+      |                              ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp: In member function ‘void AutonomousDriving::Run(const rclcpp::Time&)’:
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:153:12: warning: unused variable ‘limit_speed’ [-Wunused-variable]
+  153 |     double limit_speed = i_limit_speed_;
+      |            ^~~~~~~~~~~
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp: In member function ‘ad_msgs::msg::PolyfitLaneData AutonomousDriving::FindDrivingWay(const VehicleOutput&, const LanePointData&)’:
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:221:100: warning: unused parameter ‘vehicle_state’ [-Wunused-parameter]
+  221 | ad_msgs::msg::PolyfitLaneData AutonomousDriving::FindDrivingWay(const ad_msgs::msg::VehicleOutput &vehicle_state,
+      |                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp: In member function ‘double AutonomousDriving::LateralControl(const VehicleOutput&, const PolyfitLaneData&)’:
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:320:12: warning: unused variable ‘l_xd’ [-Wunused-variable]
+  320 |     double l_xd; // look-ahead distance [m]
+      |            ^~~~
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:321:12: warning: unused variable ‘g_x’ [-Wunused-variable]
+  321 |     double g_x, g_y; // look-ahead point coordinates [m]
+      |            ^~~
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:321:17: warning: unused variable ‘g_y’ [-Wunused-variable]
+  321 |     double g_x, g_y; // look-ahead point coordinates [m]
+      |                 ^~~
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:322:12: warning: unused variable ‘l_d’ [-Wunused-variable]
+  322 |     double l_d; // distance between vehicle and look-ahead point [m]
+      |            ^~~
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:307:77: warning: unused parameter ‘vehicle_state’ [-Wunused-parameter]
+  307 | double AutonomousDriving::LateralControl(const ad_msgs::msg::VehicleOutput &vehicle_state,
+      |                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:308:80: warning: unused parameter ‘driving_way’ [-Wunused-parameter]
+  308 |                                           const ad_msgs::msg::PolyfitLaneData &driving_way) {
+      |                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp: In member function ‘void AutonomousDriving::Publish(const rclcpp::Time&)’:
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:342:53: warning: unused parameter ‘current_time’ [-Wunused-parameter]
+  342 | void AutonomousDriving::Publish(const rclcpp::Time &current_time) {
+      |                                 ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+[100%] Linking CXX executable autonomous_driving
+[100%] Built target autonomous_driving
+-- Install configuration: ""
+-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/lib/autonomous_driving/autonomous_driving
+-- Set runtime path of "/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/lib/autonomous_driving/autonomous_driving" to ""
+-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/launch
+-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/launch/autonomous_driving.launch.xml
+-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/launch/manual_driving.launch.xml
+-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/lib/autonomous_driving/simultaneous_inputs.py
+-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/ament_index/resource_index/package_run_dependencies/autonomous_driving
+-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/ament_index/resource_index/parent_prefix_path/autonomous_driving
+-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/environment/path.sh
+-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/environment/path.dsv
+-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/local_setup.bash
+-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/local_setup.sh
+-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/local_setup.zsh
+-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/local_setup.dsv
+-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/package.dsv
+-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/ament_index/resource_index/packages/autonomous_driving
+-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/cmake/autonomous_drivingConfig.cmake
+-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/cmake/autonomous_drivingConfig-version.cmake
+-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/package.xml

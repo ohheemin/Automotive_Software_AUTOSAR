@@ -1,0 +1,102 @@
+[0.012s] Invoking command in '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/simulator': AMENT_PREFIX_PATH=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs:/usr/share/eigen3/cmake/:/opt/ros/humble LD_LIBRARY_PATH=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib:/usr/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/simulator -DCMAKE_INSTALL_PREFIX=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/simulator
+[0.073s] -- The C compiler identification is GNU 11.4.0
+[0.113s] -- The CXX compiler identification is GNU 11.4.0
+[0.118s] -- Detecting C compiler ABI info
+[0.165s] -- Detecting C compiler ABI info - done
+[0.170s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.170s] -- Detecting C compile features
+[0.170s] -- Detecting C compile features - done
+[0.172s] -- Detecting CXX compiler ABI info
+[0.227s] -- Detecting CXX compiler ABI info - done
+[0.232s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.233s] -- Detecting CXX compile features
+[0.233s] -- Detecting CXX compile features - done
+[0.235s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.331s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.385s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.411s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.413s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.418s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.425s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.434s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.459s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.461s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.522s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.541s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.572s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.577s] -- Looking for pthread.h
+[0.627s] -- Looking for pthread.h - found
+[0.627s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.681s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.682s] -- Found Threads: TRUE  
+[0.716s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.749s] -- Found ad_msgs: 0.0.0 (/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake)
+[0.776s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[0.787s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.874s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem 
+[0.949s] -- Configuring done
+[0.977s] -- Generating done
+[0.986s] -- Build files have been written to: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/simulator
+[1.005s] Invoked command in '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/simulator' returned '0': AMENT_PREFIX_PATH=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs:/usr/share/eigen3/cmake/:/opt/ros/humble LD_LIBRARY_PATH=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib:/usr/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/simulator -DCMAKE_INSTALL_PREFIX=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/simulator
+[1.006s] Invoking command in '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/simulator': AMENT_PREFIX_PATH=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs:/usr/share/eigen3/cmake/:/opt/ros/humble LD_LIBRARY_PATH=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib:/usr/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/simulator -- -j32 -l32
+[1.053s] [ 12%] Building CXX object CMakeFiles/vehicle.dir/src/vehicle/vehicle_simulator_node.cpp.o
+[1.053s] [ 25%] Building CXX object CMakeFiles/display.dir/src/display/display_node.cpp.o
+[1.054s] [ 37%] Building CXX object CMakeFiles/lane_detection.dir/src/lane_detection/lane_detection_node.cpp.o
+[1.054s] [ 50%] Building CXX object CMakeFiles/lane_detection.dir/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/bsw/system/interface/interface_lane.cpp.o
+[1.054s] [ 62%] Building CXX object CMakeFiles/lane_detection.dir/src/lane_detection/lane_detection_algorithm.cpp.o
+[1.744s] /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/bsw/system/interface/interface_lane.cpp: In member function ‘bool SLanes::ImportLaneCsvFile(std::string)’:
+[1.744s] /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/bsw/system/interface/interface_lane.cpp:26:9: warning: unused variable ‘nLaneID’ [-Wunused-variable]
+[1.744s]    26 |     int nLaneID = 0;
+[1.744s]       |         ^~~~~~~
+[1.812s] /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/simulator/src/lane_detection/lane_detection_algorithm.cpp: In member function ‘interface::Lanes LaneDetectionAlgorithm::LoadLanesData()’:
+[1.812s] /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/simulator/src/lane_detection/lane_detection_algorithm.cpp:36:34: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<SLane>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+[1.812s]    36 |     for (auto i_lane = 0; i_lane < ref_csv_lane.m_vecLanes.size(); i_lane++) {
+[1.812s]       |                           ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[1.813s] /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/simulator/src/lane_detection/lane_detection_algorithm.cpp:41:40: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<SLanePoint>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+[1.813s]    41 |         for (auto i_point = 0; i_point < ref_csv_lane.m_vecLanes[i_lane].m_vecLanePoint.size(); i_point++) {
+[1.813s]       |                                ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.992s] /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/simulator/src/vehicle/vehicle_simulator_node.cpp: In member function ‘void Vehicle::Publish(const rclcpp::Time&)’:
+[2.992s] /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/simulator/src/vehicle/vehicle_simulator_node.cpp:116:43: warning: unused parameter ‘current_time’ [-Wunused-parameter]
+[2.992s]   116 | void Vehicle::Publish(const rclcpp::Time& current_time) {
+[2.992s]       |                       ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+[3.113s] /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/simulator/src/display/display_node.cpp: In member function ‘void Display::Init(const rclcpp::Time&)’:
+[3.113s] /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/simulator/src/display/display_node.cpp:88:40: warning: unused parameter ‘current_time’ [-Wunused-parameter]
+[3.113s]    88 | void Display::Init(const rclcpp::Time& current_time) {
+[3.113s]       |                    ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+[3.704s] /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/simulator/src/lane_detection/lane_detection_node.cpp: In member function ‘void LaneDetection::Init(const rclcpp::Time&)’:
+[3.704s] /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/simulator/src/lane_detection/lane_detection_node.cpp:91:46: warning: unused parameter ‘current_time’ [-Wunused-parameter]
+[3.704s]    91 | void LaneDetection::Init(const rclcpp::Time& current_time) {
+[3.704s]       |                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+[7.853s] [ 75%] Linking CXX executable vehicle
+[8.406s] [ 75%] Built target vehicle
+[9.386s] [ 87%] Linking CXX executable lane_detection
+[9.693s] [ 87%] Built target lane_detection
+[17.704s] [100%] Linking CXX executable display
+[18.536s] [100%] Built target display
+[18.542s] Invoked command in '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/simulator' returned '0': AMENT_PREFIX_PATH=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs:/usr/share/eigen3/cmake/:/opt/ros/humble LD_LIBRARY_PATH=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib:/usr/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/simulator -- -j32 -l32
+[18.543s] Invoking command in '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/simulator': AMENT_PREFIX_PATH=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs:/usr/share/eigen3/cmake/:/opt/ros/humble LD_LIBRARY_PATH=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib:/usr/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/simulator
+[18.548s] -- Install configuration: ""
+[18.548s] -- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/simulator/lib/simulator/vehicle
+[18.551s] -- Set runtime path of "/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/simulator/lib/simulator/vehicle" to ""
+[18.551s] -- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/simulator/lib/simulator/lane_detection
+[18.555s] -- Set runtime path of "/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/simulator/lib/simulator/lane_detection" to ""
+[18.555s] -- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/simulator/lib/simulator/display
+[18.565s] -- Set runtime path of "/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/simulator/lib/simulator/display" to ""
+[18.565s] -- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/simulator/share/simulator/launch
+[18.565s] -- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/simulator/share/simulator/launch/simulation.launch.xml
+[18.566s] -- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/simulator/share/ament_index/resource_index/package_run_dependencies/simulator
+[18.566s] -- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/simulator/share/ament_index/resource_index/parent_prefix_path/simulator
+[18.566s] -- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/simulator/share/simulator/environment/ament_prefix_path.sh
+[18.566s] -- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/simulator/share/simulator/environment/ament_prefix_path.dsv
+[18.566s] -- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/simulator/share/simulator/environment/path.sh
+[18.566s] -- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/simulator/share/simulator/environment/path.dsv
+[18.566s] -- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/simulator/share/simulator/local_setup.bash
+[18.566s] -- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/simulator/share/simulator/local_setup.sh
+[18.566s] -- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/simulator/share/simulator/local_setup.zsh
+[18.566s] -- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/simulator/share/simulator/local_setup.dsv
+[18.567s] -- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/simulator/share/simulator/package.dsv
+[18.567s] -- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/simulator/share/ament_index/resource_index/packages/simulator
+[18.567s] -- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/simulator/share/simulator/cmake/simulatorConfig.cmake
+[18.567s] -- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/simulator/share/simulator/cmake/simulatorConfig-version.cmake
+[18.567s] -- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/simulator/share/simulator/package.xml
+[18.568s] Invoked command in '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/simulator' returned '0': AMENT_PREFIX_PATH=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs:/usr/share/eigen3/cmake/:/opt/ros/humble LD_LIBRARY_PATH=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib:/usr/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/simulator

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5cfe81a8c771e8a8bc5a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "autonomous_driving",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "autonomous_driving::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autonomous_driving-da84d87841746b38eb0d.json",
+					"name" : "autonomous_driving",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autonomous_driving_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autonomous_driving_uninstall-8252e04739333ec759ac.json",
+					"name" : "autonomous_driving_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5be7dee9b9f093d7fcf9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/autonomous_driving",
+		"source" : "/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

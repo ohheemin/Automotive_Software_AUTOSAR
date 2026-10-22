@@ -1,0 +1,12 @@
+{
+  "package_name": "ad_msgs",
+  "non_idl_tuples": [
+    "/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/rte/msg/ad_msgs:msg/VehicleOutput.msg",
+    "/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/rte/msg/ad_msgs:msg/VehicleInput.msg",
+    "/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/rte/msg/ad_msgs:msg/Obstacles.msg",
+    "/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/rte/msg/ad_msgs:msg/PolyfitLaneData.msg",
+    "/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/rte/msg/ad_msgs:msg/LanePointData.msg",
+    "/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/rte/msg/ad_msgs:msg/LanePointDataArray.msg",
+    "/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/rte/msg/ad_msgs:msg/PolyfitLaneDataArray.msg"
+  ]
+}

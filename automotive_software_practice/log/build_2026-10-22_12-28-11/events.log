@@ -1,0 +1,248 @@
+[0.000000] (-) TimerEvent: {}
+[0.000148] (-) JobUnselected: {'identifier': 'ad_msgs'}
+[0.000320] (-) JobUnselected: {'identifier': 'evaluation'}
+[0.000514] (-) JobUnselected: {'identifier': 'scenario_runner'}
+[0.000529] (-) JobUnselected: {'identifier': 'simulator'}
+[0.000545] (autonomous_driving) JobQueued: {'identifier': 'autonomous_driving', 'dependencies': OrderedDict([('ad_msgs', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs')])}
+[0.000566] (autonomous_driving) JobStarted: {'identifier': 'autonomous_driving'}
+[0.006307] (autonomous_driving) JobProgress: {'identifier': 'autonomous_driving', 'progress': 'cmake'}
+[0.006668] (autonomous_driving) JobProgress: {'identifier': 'autonomous_driving', 'progress': 'build'}
+[0.007069] (autonomous_driving) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/autonomous_driving', '--', '-j32', '-l32'], 'cwd': '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/autonomous_driving', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/ohheemin'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('AI_AGENT', 'claude-code_2-1-307_agent'), ('LANGUAGE', 'ko:en'), ('USER', 'ohheemin'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('LC_TIME', 'ko_KR.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"ko","osLocale":"ko","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"ko","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('CLAUDE_AGENT_SDK_VERSION', '0.3.307'), ('CLAUDE_CODE_SESSION_ATTENDED', '1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib:/usr/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda/lib64'), ('CLAUDE_CODE_MESSAGING_TOKEN', 'dafade59fa11da78961e542d241f0aea'), ('HOME', '/home/ohheemin'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ohheemin/.nvm/versions/node/v20.20.2/bin'), ('NVM_INC', '/home/ohheemin/.nvm/versions/node/v20.20.2/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-5fc13ca4-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2182'), ('SYSTEMD_EXEC_PID', '2602'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CONDA_ROOT', '/home/ohheemin/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3595'), ('NVM_DIR', '/home/ohheemin/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ohheemin'), ('CLAUDE_CODE_EMIT_STARTUP_TIMING', '1'), ('JOURNAL_STREAM', '8:13499'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_QUESTION_PREVIEW_FORMAT', 'markdown'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ohheemin'), ('RMW_FASTRTPS_USE_SHM', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/ohheemin/.local/bin:/usr/local/cuda/bin:/home/ohheemin/.local/bin:/home/ohheemin/.nvm/versions/node/v20.20.2/bin:/home/ohheemin/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda/bin:/home/ohheemin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ohheemin:@/tmp/.ICE-unix/2579,unix/ohheemin:/tmp/.ICE-unix/2579'), ('INVOCATION_ID', '3eafeefdbc5d420faa54c7687efd721c'), ('PAPERSIZE', 'a4'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CLAUDE_EFFORT', 'medium'), ('DISPLAY', ':1'), ('CLAUDE_PID', '5195'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ohheemin/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('CLAUDE_CODE_SESSION_ID', '40ee00c4-a0fb-4190-8d6e-47309c73ff81'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('CMAKE_MODULE_PATH', '/usr/share/eigen3/cmake/:'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/ohheemin/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/autonomous_driving'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ohheemin/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/ohheemin/.config/Code/CachedData/7d842fb85a0275a4a8e4d7e040d2625abbf7f084'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/ohheemin/.vscode/extensions/anthropic.claude-code-2.1.307-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CLAUDE_CODE_ENABLE_TASKS', '0'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CLAUDE_CODE_MESSAGING_SOCKET', '/run/user/1000/cc-socks/5195.sock'), ('CMAKE_PREFIX_PATH', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs:/usr/share/eigen3/cmake/:/opt/ros/humble'), ('VSCODE_PID', '3595')]), 'shell': False}
+[0.042268] (autonomous_driving) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target autonomous_driving\n'}
+[0.051893] (autonomous_driving) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/autonomous_driving.dir/src/autonomous_driving.cpp.o\n'}
+[0.099836] (-) TimerEvent: {}
+[0.199929] (-) TimerEvent: {}
+[0.300047] (-) TimerEvent: {}
+[0.400229] (-) TimerEvent: {}
+[0.500441] (-) TimerEvent: {}
+[0.600590] (-) TimerEvent: {}
+[0.700718] (-) TimerEvent: {}
+[0.800831] (-) TimerEvent: {}
+[0.900927] (-) TimerEvent: {}
+[1.001013] (-) TimerEvent: {}
+[1.101109] (-) TimerEvent: {}
+[1.201217] (-) TimerEvent: {}
+[1.301317] (-) TimerEvent: {}
+[1.401415] (-) TimerEvent: {}
+[1.501545] (-) TimerEvent: {}
+[1.601686] (-) TimerEvent: {}
+[1.701795] (-) TimerEvent: {}
+[1.801911] (-) TimerEvent: {}
+[1.902022] (-) TimerEvent: {}
+[2.002133] (-) TimerEvent: {}
+[2.056812] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp: In member function \xe2\x80\x98void AutonomousDriving::Init(const rclcpp::Time&)\xe2\x80\x99:\n'}
+[2.056987] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:132:50: warning: unused parameter \xe2\x80\x98current_time\xe2\x80\x99 [-Wunused-parameter]\n'}
+[2.057035] (autonomous_driving) StderrLine: {'line': b'  132 | void AutonomousDriving::Init(const rclcpp::Time &current_time) {\n'}
+[2.057065] (autonomous_driving) StderrLine: {'line': b'      |                              ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\n'}
+[2.058002] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp: In member function \xe2\x80\x98void AutonomousDriving::Run(const rclcpp::Time&)\xe2\x80\x99:\n'}
+[2.058048] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:153:12: warning: unused variable \xe2\x80\x98limit_speed\xe2\x80\x99 [-Wunused-variable]\n'}
+[2.058075] (autonomous_driving) StderrLine: {'line': b'  153 |     double limit_speed = i_limit_speed_;\n'}
+[2.058125] (autonomous_driving) StderrLine: {'line': b'      |            ^~~~~~~~~~~\n'}
+[2.102222] (-) TimerEvent: {}
+[2.115313] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp: In member function \xe2\x80\x98ad_msgs::msg::PolyfitLaneData AutonomousDriving::FindDrivingWay(const VehicleOutput&, const LanePointData&)\xe2\x80\x99:\n'}
+[2.115384] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:221:100: warning: unused parameter \xe2\x80\x98vehicle_state\xe2\x80\x99 [-Wunused-parameter]\n'}
+[2.115423] (autonomous_driving) StderrLine: {'line': b'  221 | ad_msgs::msg::PolyfitLaneData AutonomousDriving::FindDrivingWay(const ad_msgs::msg::VehicleOutput &vehicle_state,\n'}
+[2.115455] (autonomous_driving) StderrLine: {'line': b'      |                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\n'}
+[2.115485] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp: In member function \xe2\x80\x98double AutonomousDriving::LateralControl(const VehicleOutput&, const PolyfitLaneData&)\xe2\x80\x99:\n'}
+[2.115515] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:324:12: warning: unused variable \xe2\x80\x98l_xd\xe2\x80\x99 [-Wunused-variable]\n'}
+[2.115543] (autonomous_driving) StderrLine: {'line': b'  324 |     double l_xd; // look-ahead distance [m]\n'}
+[2.115569] (autonomous_driving) StderrLine: {'line': b'      |            ^~~~\n'}
+[2.115594] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:325:12: warning: unused variable \xe2\x80\x98g_x\xe2\x80\x99 [-Wunused-variable]\n'}
+[2.115620] (autonomous_driving) StderrLine: {'line': b'  325 |     double g_x, g_y; // look-ahead point coordinates [m]\n'}
+[2.115651] (autonomous_driving) StderrLine: {'line': b'      |            ^~~\n'}
+[2.115677] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:325:17: warning: unused variable \xe2\x80\x98g_y\xe2\x80\x99 [-Wunused-variable]\n'}
+[2.115801] (autonomous_driving) StderrLine: {'line': b'  325 |     double g_x, g_y; // look-ahead point coordinates [m]\n'}
+[2.115832] (autonomous_driving) StderrLine: {'line': b'      |                 ^~~\n'}
+[2.115861] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:326:12: warning: unused variable \xe2\x80\x98l_d\xe2\x80\x99 [-Wunused-variable]\n'}
+[2.115886] (autonomous_driving) StderrLine: {'line': b'  326 |     double l_d; // distance between vehicle and look-ahead point [m]\n'}
+[2.115911] (autonomous_driving) StderrLine: {'line': b'      |            ^~~\n'}
+[2.115936] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:311:77: warning: unused parameter \xe2\x80\x98vehicle_state\xe2\x80\x99 [-Wunused-parameter]\n'}
+[2.115962] (autonomous_driving) StderrLine: {'line': b'  311 | double AutonomousDriving::LateralControl(const ad_msgs::msg::VehicleOutput &vehicle_state,\n'}
+[2.115988] (autonomous_driving) StderrLine: {'line': b'      |                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\n'}
+[2.116014] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:312:80: warning: unused parameter \xe2\x80\x98driving_way\xe2\x80\x99 [-Wunused-parameter]\n'}
+[2.116042] (autonomous_driving) StderrLine: {'line': b'  312 |                                           const ad_msgs::msg::PolyfitLaneData &driving_way) {\n'}
+[2.116067] (autonomous_driving) StderrLine: {'line': b'      |                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\n'}
+[2.116094] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp: In member function \xe2\x80\x98void AutonomousDriving::Publish(const rclcpp::Time&)\xe2\x80\x99:\n'}
+[2.116120] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:346:53: warning: unused parameter \xe2\x80\x98current_time\xe2\x80\x99 [-Wunused-parameter]\n'}
+[2.116145] (autonomous_driving) StderrLine: {'line': b'  346 | void AutonomousDriving::Publish(const rclcpp::Time &current_time) {\n'}
+[2.116171] (autonomous_driving) StderrLine: {'line': b'      |                                 ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\n'}
+[2.202298] (-) TimerEvent: {}
+[2.302430] (-) TimerEvent: {}
+[2.402531] (-) TimerEvent: {}
+[2.502620] (-) TimerEvent: {}
+[2.602708] (-) TimerEvent: {}
+[2.702803] (-) TimerEvent: {}
+[2.802884] (-) TimerEvent: {}
+[2.902982] (-) TimerEvent: {}
+[3.003060] (-) TimerEvent: {}
+[3.103152] (-) TimerEvent: {}
+[3.203224] (-) TimerEvent: {}
+[3.303319] (-) TimerEvent: {}
+[3.403436] (-) TimerEvent: {}
+[3.503686] (-) TimerEvent: {}
+[3.603940] (-) TimerEvent: {}
+[3.704071] (-) TimerEvent: {}
+[3.804187] (-) TimerEvent: {}
+[3.904327] (-) TimerEvent: {}
+[4.004424] (-) TimerEvent: {}
+[4.104535] (-) TimerEvent: {}
+[4.204648] (-) TimerEvent: {}
+[4.304769] (-) TimerEvent: {}
+[4.404874] (-) TimerEvent: {}
+[4.504981] (-) TimerEvent: {}
+[4.605090] (-) TimerEvent: {}
+[4.705202] (-) TimerEvent: {}
+[4.805328] (-) TimerEvent: {}
+[4.905440] (-) TimerEvent: {}
+[5.005541] (-) TimerEvent: {}
+[5.105641] (-) TimerEvent: {}
+[5.205747] (-) TimerEvent: {}
+[5.305823] (-) TimerEvent: {}
+[5.405898] (-) TimerEvent: {}
+[5.505993] (-) TimerEvent: {}
+[5.606072] (-) TimerEvent: {}
+[5.706150] (-) TimerEvent: {}
+[5.806227] (-) TimerEvent: {}
+[5.906300] (-) TimerEvent: {}
+[6.006375] (-) TimerEvent: {}
+[6.106449] (-) TimerEvent: {}
+[6.206562] (-) TimerEvent: {}
+[6.306658] (-) TimerEvent: {}
+[6.406762] (-) TimerEvent: {}
+[6.506871] (-) TimerEvent: {}
+[6.606946] (-) TimerEvent: {}
+[6.707012] (-) TimerEvent: {}
+[6.807082] (-) TimerEvent: {}
+[6.907162] (-) TimerEvent: {}
+[7.007254] (-) TimerEvent: {}
+[7.107344] (-) TimerEvent: {}
+[7.207432] (-) TimerEvent: {}
+[7.307537] (-) TimerEvent: {}
+[7.407610] (-) TimerEvent: {}
+[7.507685] (-) TimerEvent: {}
+[7.607789] (-) TimerEvent: {}
+[7.707881] (-) TimerEvent: {}
+[7.807955] (-) TimerEvent: {}
+[7.908052] (-) TimerEvent: {}
+[8.008138] (-) TimerEvent: {}
+[8.108198] (-) TimerEvent: {}
+[8.208267] (-) TimerEvent: {}
+[8.308326] (-) TimerEvent: {}
+[8.408457] (-) TimerEvent: {}
+[8.508647] (-) TimerEvent: {}
+[8.608848] (-) TimerEvent: {}
+[8.709011] (-) TimerEvent: {}
+[8.809191] (-) TimerEvent: {}
+[8.909371] (-) TimerEvent: {}
+[9.009620] (-) TimerEvent: {}
+[9.109914] (-) TimerEvent: {}
+[9.210089] (-) TimerEvent: {}
+[9.310244] (-) TimerEvent: {}
+[9.410333] (-) TimerEvent: {}
+[9.510425] (-) TimerEvent: {}
+[9.610509] (-) TimerEvent: {}
+[9.710603] (-) TimerEvent: {}
+[9.810704] (-) TimerEvent: {}
+[9.910805] (-) TimerEvent: {}
+[10.010891] (-) TimerEvent: {}
+[10.110986] (-) TimerEvent: {}
+[10.211108] (-) TimerEvent: {}
+[10.311233] (-) TimerEvent: {}
+[10.411324] (-) TimerEvent: {}
+[10.511413] (-) TimerEvent: {}
+[10.611512] (-) TimerEvent: {}
+[10.711638] (-) TimerEvent: {}
+[10.811709] (-) TimerEvent: {}
+[10.911791] (-) TimerEvent: {}
+[11.011881] (-) TimerEvent: {}
+[11.111984] (-) TimerEvent: {}
+[11.212082] (-) TimerEvent: {}
+[11.312172] (-) TimerEvent: {}
+[11.412269] (-) TimerEvent: {}
+[11.512407] (-) TimerEvent: {}
+[11.612579] (-) TimerEvent: {}
+[11.712763] (-) TimerEvent: {}
+[11.812933] (-) TimerEvent: {}
+[11.913126] (-) TimerEvent: {}
+[12.013442] (-) TimerEvent: {}
+[12.113660] (-) TimerEvent: {}
+[12.213733] (-) TimerEvent: {}
+[12.313806] (-) TimerEvent: {}
+[12.413893] (-) TimerEvent: {}
+[12.513995] (-) TimerEvent: {}
+[12.614146] (-) TimerEvent: {}
+[12.714308] (-) TimerEvent: {}
+[12.814439] (-) TimerEvent: {}
+[12.914606] (-) TimerEvent: {}
+[13.014761] (-) TimerEvent: {}
+[13.114900] (-) TimerEvent: {}
+[13.215034] (-) TimerEvent: {}
+[13.315151] (-) TimerEvent: {}
+[13.415288] (-) TimerEvent: {}
+[13.515588] (-) TimerEvent: {}
+[13.615979] (-) TimerEvent: {}
+[13.716226] (-) TimerEvent: {}
+[13.816528] (-) TimerEvent: {}
+[13.916820] (-) TimerEvent: {}
+[14.017000] (-) TimerEvent: {}
+[14.117149] (-) TimerEvent: {}
+[14.217277] (-) TimerEvent: {}
+[14.317472] (-) TimerEvent: {}
+[14.417610] (-) TimerEvent: {}
+[14.517707] (-) TimerEvent: {}
+[14.617803] (-) TimerEvent: {}
+[14.717917] (-) TimerEvent: {}
+[14.818044] (-) TimerEvent: {}
+[14.918163] (-) TimerEvent: {}
+[15.018344] (-) TimerEvent: {}
+[15.118588] (-) TimerEvent: {}
+[15.218710] (-) TimerEvent: {}
+[15.318822] (-) TimerEvent: {}
+[15.418955] (-) TimerEvent: {}
+[15.519127] (-) TimerEvent: {}
+[15.619309] (-) TimerEvent: {}
+[15.719490] (-) TimerEvent: {}
+[15.819687] (-) TimerEvent: {}
+[15.919902] (-) TimerEvent: {}
+[16.020125] (-) TimerEvent: {}
+[16.120312] (-) TimerEvent: {}
+[16.149446] (autonomous_driving) StdoutLine: {'line': b'[100%] Linking CXX executable autonomous_driving\n'}
+[16.220517] (-) TimerEvent: {}
+[16.320815] (-) TimerEvent: {}
+[16.420951] (-) TimerEvent: {}
+[16.521041] (-) TimerEvent: {}
+[16.621205] (-) TimerEvent: {}
+[16.721422] (-) TimerEvent: {}
+[16.821770] (-) TimerEvent: {}
+[16.922097] (-) TimerEvent: {}
+[17.022246] (-) TimerEvent: {}
+[17.122377] (-) TimerEvent: {}
+[17.154928] (autonomous_driving) StdoutLine: {'line': b'[100%] Built target autonomous_driving\n'}
+[17.164563] (autonomous_driving) CommandEnded: {'returncode': 0}
+[17.165250] (autonomous_driving) JobProgress: {'identifier': 'autonomous_driving', 'progress': 'install'}
+[17.172192] (autonomous_driving) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/autonomous_driving'], 'cwd': '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/autonomous_driving', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/ohheemin'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('AI_AGENT', 'claude-code_2-1-307_agent'), ('LANGUAGE', 'ko:en'), ('USER', 'ohheemin'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('LC_TIME', 'ko_KR.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"ko","osLocale":"ko","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"ko","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('CLAUDE_AGENT_SDK_VERSION', '0.3.307'), ('CLAUDE_CODE_SESSION_ATTENDED', '1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib:/usr/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda/lib64'), ('CLAUDE_CODE_MESSAGING_TOKEN', 'dafade59fa11da78961e542d241f0aea'), ('HOME', '/home/ohheemin'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ohheemin/.nvm/versions/node/v20.20.2/bin'), ('NVM_INC', '/home/ohheemin/.nvm/versions/node/v20.20.2/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-5fc13ca4-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2182'), ('SYSTEMD_EXEC_PID', '2602'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CONDA_ROOT', '/home/ohheemin/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3595'), ('NVM_DIR', '/home/ohheemin/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ohheemin'), ('CLAUDE_CODE_EMIT_STARTUP_TIMING', '1'), ('JOURNAL_STREAM', '8:13499'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_QUESTION_PREVIEW_FORMAT', 'markdown'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ohheemin'), ('RMW_FASTRTPS_USE_SHM', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/ohheemin/.local/bin:/usr/local/cuda/bin:/home/ohheemin/.local/bin:/home/ohheemin/.nvm/versions/node/v20.20.2/bin:/home/ohheemin/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda/bin:/home/ohheemin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ohheemin:@/tmp/.ICE-unix/2579,unix/ohheemin:/tmp/.ICE-unix/2579'), ('INVOCATION_ID', '3eafeefdbc5d420faa54c7687efd721c'), ('PAPERSIZE', 'a4'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CLAUDE_EFFORT', 'medium'), ('DISPLAY', ':1'), ('CLAUDE_PID', '5195'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ohheemin/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('CLAUDE_CODE_SESSION_ID', '40ee00c4-a0fb-4190-8d6e-47309c73ff81'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('CMAKE_MODULE_PATH', '/usr/share/eigen3/cmake/:'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/ohheemin/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/autonomous_driving'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ohheemin/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/ohheemin/.config/Code/CachedData/7d842fb85a0275a4a8e4d7e040d2625abbf7f084'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/ohheemin/.vscode/extensions/anthropic.claude-code-2.1.307-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CLAUDE_CODE_ENABLE_TASKS', '0'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CLAUDE_CODE_MESSAGING_SOCKET', '/run/user/1000/cc-socks/5195.sock'), ('CMAKE_PREFIX_PATH', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs:/usr/share/eigen3/cmake/:/opt/ros/humble'), ('VSCODE_PID', '3595')]), 'shell': False}
+[17.181413] (autonomous_driving) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.181569] (autonomous_driving) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/lib/autonomous_driving/autonomous_driving\n'}
+[17.196953] (autonomous_driving) StdoutLine: {'line': b'-- Set runtime path of "/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/lib/autonomous_driving/autonomous_driving" to ""\n'}
+[17.197265] (autonomous_driving) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/launch\n'}
+[17.197383] (autonomous_driving) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/launch/autonomous_driving.launch.xml\n'}
+[17.197434] (autonomous_driving) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/launch/manual_driving.launch.xml\n'}
+[17.197480] (autonomous_driving) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/lib/autonomous_driving/simultaneous_inputs.py\n'}
+[17.197537] (autonomous_driving) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/ament_index/resource_index/package_run_dependencies/autonomous_driving\n'}
+[17.197650] (autonomous_driving) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/ament_index/resource_index/parent_prefix_path/autonomous_driving\n'}
+[17.197737] (autonomous_driving) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/environment/ament_prefix_path.sh\n'}
+[17.197789] (autonomous_driving) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/environment/ament_prefix_path.dsv\n'}
+[17.197832] (autonomous_driving) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/environment/path.sh\n'}
+[17.197875] (autonomous_driving) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/environment/path.dsv\n'}
+[17.197913] (autonomous_driving) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/local_setup.bash\n'}
+[17.197940] (autonomous_driving) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/local_setup.sh\n'}
+[17.197967] (autonomous_driving) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/local_setup.zsh\n'}
+[17.197993] (autonomous_driving) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/local_setup.dsv\n'}
+[17.198020] (autonomous_driving) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/package.dsv\n'}
+[17.198050] (autonomous_driving) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/ament_index/resource_index/packages/autonomous_driving\n'}
+[17.198078] (autonomous_driving) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/cmake/autonomous_drivingConfig.cmake\n'}
+[17.198104] (autonomous_driving) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/cmake/autonomous_drivingConfig-version.cmake\n'}
+[17.198130] (autonomous_driving) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/package.xml\n'}
+[17.199439] (autonomous_driving) CommandEnded: {'returncode': 0}
+[17.211232] (autonomous_driving) JobEnded: {'identifier': 'autonomous_driving', 'rc': 0}
+[17.211711] (-) EventReactorShutdown: {}

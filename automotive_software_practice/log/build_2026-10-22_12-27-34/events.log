@@ -1,0 +1,147 @@
+[0.000000] (-) TimerEvent: {}
+[0.000309] (-) JobUnselected: {'identifier': 'ad_msgs'}
+[0.000446] (-) JobUnselected: {'identifier': 'evaluation'}
+[0.000461] (-) JobUnselected: {'identifier': 'scenario_runner'}
+[0.000471] (-) JobUnselected: {'identifier': 'simulator'}
+[0.000484] (autonomous_driving) JobQueued: {'identifier': 'autonomous_driving', 'dependencies': OrderedDict([('ad_msgs', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs')])}
+[0.000502] (autonomous_driving) JobStarted: {'identifier': 'autonomous_driving'}
+[0.006501] (autonomous_driving) JobProgress: {'identifier': 'autonomous_driving', 'progress': 'cmake'}
+[0.006883] (autonomous_driving) JobProgress: {'identifier': 'autonomous_driving', 'progress': 'build'}
+[0.007284] (autonomous_driving) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/autonomous_driving', '--', '-j32', '-l32'], 'cwd': '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/autonomous_driving', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'ohheemin'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib:/usr/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda/lib64'), ('HOME', '/home/ohheemin'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ohheemin'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ohheemin/.nvm/versions/node/v20.20.2/bin'), ('NVM_INC', '/home/ohheemin/.nvm/versions/node/v20.20.2/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2182'), ('SYSTEMD_EXEC_PID', '2602'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('_CONDA_ROOT', '/home/ohheemin/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '23527'), ('NVM_DIR', '/home/ohheemin/.nvm'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ohheemin'), ('JOURNAL_STREAM', '8:13499'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ohheemin'), ('TERM', 'xterm-256color'), ('RMW_FASTRTPS_USE_SHM', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ohheemin/.nvm/versions/node/v20.20.2/bin:/home/ohheemin/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda/bin:/home/ohheemin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ohheemin:@/tmp/.ICE-unix/2579,unix/ohheemin:/tmp/.ICE-unix/2579'), ('INVOCATION_ID', '3eafeefdbc5d420faa54c7687efd721c'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ohheemin/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:abf200fa-e38a-44f2-85ce-98c4aa8c7c50'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CMAKE_MODULE_PATH', '/usr/share/eigen3/cmake/:'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/ohheemin/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/autonomous_driving'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ohheemin/miniconda3/bin/conda'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs:/usr/share/eigen3/cmake/:/opt/ros/humble')]), 'shell': False}
+[0.035463] (autonomous_driving) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target autonomous_driving\x1b[0m\n'}
+[0.049778] (autonomous_driving) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/autonomous_driving.dir/src/autonomous_driving.cpp.o\x1b[0m\n'}
+[0.099813] (-) TimerEvent: {}
+[0.199948] (-) TimerEvent: {}
+[0.300061] (-) TimerEvent: {}
+[0.400187] (-) TimerEvent: {}
+[0.500323] (-) TimerEvent: {}
+[0.600482] (-) TimerEvent: {}
+[0.700622] (-) TimerEvent: {}
+[0.800738] (-) TimerEvent: {}
+[0.900847] (-) TimerEvent: {}
+[1.000955] (-) TimerEvent: {}
+[1.101065] (-) TimerEvent: {}
+[1.201212] (-) TimerEvent: {}
+[1.301322] (-) TimerEvent: {}
+[1.401437] (-) TimerEvent: {}
+[1.501553] (-) TimerEvent: {}
+[1.601664] (-) TimerEvent: {}
+[1.701795] (-) TimerEvent: {}
+[1.801921] (-) TimerEvent: {}
+[1.902040] (-) TimerEvent: {}
+[1.998557] (autonomous_driving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid AutonomousDriving::Init(const rclcpp::Time&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.998711] (autonomous_driving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:132:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcurrent_time\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.998765] (autonomous_driving) StderrLine: {'line': b'  132 | void AutonomousDriving::Init(\x1b[01;35m\x1b[Kconst rclcpp::Time &current_time\x1b[m\x1b[K) {\n'}
+[1.998810] (autonomous_driving) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.999236] (autonomous_driving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid AutonomousDriving::Run(const rclcpp::Time&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.999321] (autonomous_driving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:153:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Klimit_speed\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.999377] (autonomous_driving) StderrLine: {'line': b'  153 |     double \x1b[01;35m\x1b[Klimit_speed\x1b[m\x1b[K = i_limit_speed_;\n'}
+[1.999421] (autonomous_driving) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.002109] (-) TimerEvent: {}
+[2.005081] (autonomous_driving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kad_msgs::msg::PolyfitLaneData AutonomousDriving::FindDrivingWay(const VehicleOutput&, const LanePointData&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.005178] (autonomous_driving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:245:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprev_driving_way_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kp_driving_way_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.005237] (autonomous_driving) StderrLine: {'line': b'  245 |         double y_center = \x1b[01;31m\x1b[Kprev_driving_way_\x1b[m\x1b[K.a0 + prev_driving_way_.a1 * p.x\n'}
+[2.005279] (autonomous_driving) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.005319] (autonomous_driving) StderrLine: {'line': b'      |                           \x1b[32m\x1b[Kp_driving_way_\x1b[m\x1b[K\n'}
+[2.080392] (autonomous_driving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:299:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprev_driving_way_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kp_driving_way_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.080474] (autonomous_driving) StderrLine: {'line': b'  299 |         driving_way.a0 = \x1b[01;31m\x1b[Kprev_driving_way_\x1b[m\x1b[K.a0;\n'}
+[2.080512] (autonomous_driving) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.080546] (autonomous_driving) StderrLine: {'line': b'      |                          \x1b[32m\x1b[Kp_driving_way_\x1b[m\x1b[K\n'}
+[2.087157] (autonomous_driving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:304:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprev_driving_way_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kp_driving_way_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.087259] (autonomous_driving) StderrLine: {'line': b'  304 |     \x1b[01;31m\x1b[Kprev_driving_way_\x1b[m\x1b[K = driving_way;\n'}
+[2.087312] (autonomous_driving) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.087358] (autonomous_driving) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kp_driving_way_\x1b[m\x1b[K\n'}
+[2.087737] (autonomous_driving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:221:100:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kvehicle_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.087798] (autonomous_driving) StderrLine: {'line': b'  221 | sDriving::FindDrivingWay(\x1b[01;35m\x1b[Kconst ad_msgs::msg::VehicleOutput &vehicle_state\x1b[m\x1b[K,\n'}
+[2.087836] (autonomous_driving) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.087878] (autonomous_driving) StderrLine: {'line': b'\n'}
+[2.087942] (autonomous_driving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble AutonomousDriving::LateralControl(const VehicleOutput&, const PolyfitLaneData&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.088025] (autonomous_driving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:324:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kl_xd\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.088054] (autonomous_driving) StderrLine: {'line': b'  324 |     double \x1b[01;35m\x1b[Kl_xd\x1b[m\x1b[K; // look-ahead distance [m]\n'}
+[2.088080] (autonomous_driving) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.088105] (autonomous_driving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:325:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kg_x\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.088130] (autonomous_driving) StderrLine: {'line': b'  325 |     double \x1b[01;35m\x1b[Kg_x\x1b[m\x1b[K, g_y; // look-ahead point coordinates [m]\n'}
+[2.088156] (autonomous_driving) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.088188] (autonomous_driving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:325:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kg_y\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.088225] (autonomous_driving) StderrLine: {'line': b'  325 |     double g_x, \x1b[01;35m\x1b[Kg_y\x1b[m\x1b[K; // look-ahead point coordinates [m]\n'}
+[2.088249] (autonomous_driving) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.088273] (autonomous_driving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:326:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kl_d\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.088298] (autonomous_driving) StderrLine: {'line': b'  326 |     double \x1b[01;35m\x1b[Kl_d\x1b[m\x1b[K; // distance between vehicle and look-ahead point [m]\n'}
+[2.088322] (autonomous_driving) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.088346] (autonomous_driving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:311:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kvehicle_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.088375] (autonomous_driving) StderrLine: {'line': b'  311 | sDriving::LateralControl(\x1b[01;35m\x1b[Kconst ad_msgs::msg::VehicleOutput &vehicle_state\x1b[m\x1b[K,\n'}
+[2.088399] (autonomous_driving) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.088422] (autonomous_driving) StderrLine: {'line': b'\n'}
+[2.088446] (autonomous_driving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:312:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kdriving_way\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.088475] (autonomous_driving) StderrLine: {'line': b'  312 |                        \x1b[01;35m\x1b[Kconst ad_msgs::msg::PolyfitLaneData &driving_way\x1b[m\x1b[K) {\n'}
+[2.088499] (autonomous_driving) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.088523] (autonomous_driving) StderrLine: {'line': b'\n'}
+[2.088841] (autonomous_driving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid AutonomousDriving::Publish(const rclcpp::Time&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.088868] (autonomous_driving) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:346:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcurrent_time\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.088893] (autonomous_driving) StderrLine: {'line': b'  346 | void AutonomousDriving::Publish(\x1b[01;35m\x1b[Kconst rclcpp::Time &current_time\x1b[m\x1b[K) {\n'}
+[2.088924] (autonomous_driving) StderrLine: {'line': b'      |                                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.102185] (-) TimerEvent: {}
+[2.202320] (-) TimerEvent: {}
+[2.302441] (-) TimerEvent: {}
+[2.402586] (-) TimerEvent: {}
+[2.502702] (-) TimerEvent: {}
+[2.602838] (-) TimerEvent: {}
+[2.702948] (-) TimerEvent: {}
+[2.803079] (-) TimerEvent: {}
+[2.903307] (-) TimerEvent: {}
+[3.003476] (-) TimerEvent: {}
+[3.103683] (-) TimerEvent: {}
+[3.203808] (-) TimerEvent: {}
+[3.303921] (-) TimerEvent: {}
+[3.404060] (-) TimerEvent: {}
+[3.504154] (-) TimerEvent: {}
+[3.604332] (-) TimerEvent: {}
+[3.704474] (-) TimerEvent: {}
+[3.804616] (-) TimerEvent: {}
+[3.904854] (-) TimerEvent: {}
+[4.005229] (-) TimerEvent: {}
+[4.105404] (-) TimerEvent: {}
+[4.205552] (-) TimerEvent: {}
+[4.305678] (-) TimerEvent: {}
+[4.405801] (-) TimerEvent: {}
+[4.505923] (-) TimerEvent: {}
+[4.606046] (-) TimerEvent: {}
+[4.706160] (-) TimerEvent: {}
+[4.806309] (-) TimerEvent: {}
+[4.906463] (-) TimerEvent: {}
+[5.006586] (-) TimerEvent: {}
+[5.106722] (-) TimerEvent: {}
+[5.206832] (-) TimerEvent: {}
+[5.306963] (-) TimerEvent: {}
+[5.407098] (-) TimerEvent: {}
+[5.507240] (-) TimerEvent: {}
+[5.607356] (-) TimerEvent: {}
+[5.707578] (-) TimerEvent: {}
+[5.807997] (-) TimerEvent: {}
+[5.908140] (-) TimerEvent: {}
+[6.008277] (-) TimerEvent: {}
+[6.108437] (-) TimerEvent: {}
+[6.208588] (-) TimerEvent: {}
+[6.308747] (-) TimerEvent: {}
+[6.408897] (-) TimerEvent: {}
+[6.509039] (-) TimerEvent: {}
+[6.609181] (-) TimerEvent: {}
+[6.709334] (-) TimerEvent: {}
+[6.809449] (-) TimerEvent: {}
+[6.909575] (-) TimerEvent: {}
+[7.009698] (-) TimerEvent: {}
+[7.109825] (-) TimerEvent: {}
+[7.209949] (-) TimerEvent: {}
+[7.310084] (-) TimerEvent: {}
+[7.410256] (-) TimerEvent: {}
+[7.510391] (-) TimerEvent: {}
+[7.610514] (-) TimerEvent: {}
+[7.710609] (-) TimerEvent: {}
+[7.810739] (-) TimerEvent: {}
+[7.895589] (autonomous_driving) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/autonomous_driving.dir/build.make:76: CMakeFiles/autonomous_driving.dir/src/autonomous_driving.cpp.o] \xec\x98\xa4\xeb\xa5\x98 1\n'}
+[7.895919] (autonomous_driving) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/autonomous_driving.dir/all] \xec\x98\xa4\xeb\xa5\x98 2\n'}
+[7.896266] (autonomous_driving) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xec\x98\xa4\xeb\xa5\x98 2\n'}
+[7.898390] (autonomous_driving) CommandEnded: {'returncode': 2}
+[7.904485] (autonomous_driving) JobEnded: {'identifier': 'autonomous_driving', 'rc': 2}
+[7.910819] (-) TimerEvent: {}
+[7.914803] (-) EventReactorShutdown: {}

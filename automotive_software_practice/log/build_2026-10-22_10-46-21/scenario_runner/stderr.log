@@ -1,0 +1,15 @@
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/bsw/system/interface/interface_lane.cpp: In member function ‘bool SLanes::ImportLaneCsvFile(std::string)’:
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/bsw/system/interface/interface_lane.cpp:26:9: warning: unused variable ‘nLaneID’ [-Wunused-variable]
+   26 |     int nLaneID = 0;
+      |         ^~~~~~~
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/scenario_runner/src/scenario_algorithm.cpp: In member function ‘void ScenarioAlgorithm::GenerateObstacles()’:
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/scenario_runner/src/scenario_algorithm.cpp:79:24: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<interface::RefLanePoint>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   79 |         for (int j=0; j<obstacle_ref_lanes_.lanes[i].points.size(); j++) {
+      |                       ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/scenario_runner/src/scenario_algorithm.cpp: In member function ‘void ScenarioAlgorithm::UpdateObstacleState(double)’:
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/scenario_runner/src/scenario_algorithm.cpp:148:24: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<interface::ObstacleState>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  148 |         for (int i=0; i<obstacle_states_.size(); i++) {
+      |                       ~^~~~~~~~~~~~~~~~~~~~~~~~
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/scenario_runner/src/scenario_algorithm.cpp:151:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<std::pair<double, double> >::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+  151 |             for(int k=0; k<object_target_speed_.size(); k++) {
+      |                          ~^~~~~~~~~~~~~~~~~~~~~~~~~~~~

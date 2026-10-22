@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.000182] (-) JobUnselected: {'identifier': 'ad_msgs'}
+[0.000203] (-) JobUnselected: {'identifier': 'evaluation'}
+[0.000216] (-) JobUnselected: {'identifier': 'scenario_runner'}
+[0.000226] (-) JobUnselected: {'identifier': 'simulator'}
+[0.000241] (autonomous_driving) JobQueued: {'identifier': 'autonomous_driving', 'dependencies': OrderedDict([('ad_msgs', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs')])}
+[0.000500] (autonomous_driving) JobStarted: {'identifier': 'autonomous_driving'}
+[0.014304] (autonomous_driving) JobEnded: {'identifier': 'autonomous_driving', 'rc': 1}
+[0.024568] (-) EventReactorShutdown: {}

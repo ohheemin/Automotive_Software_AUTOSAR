@@ -1,0 +1,53 @@
+[01m[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Init(const rclcpp::Time&)[m[K’:
+[01m[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:132:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  132 | void AutonomousDriving::Init([01;35m[Kconst rclcpp::Time &current_time[m[K) {
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Run(const rclcpp::Time&)[m[K’:
+[01m[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:153:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klimit_speed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  153 |     double [01;35m[Klimit_speed[m[K = i_limit_speed_;
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kad_msgs::msg::PolyfitLaneData AutonomousDriving::FindDrivingWay(const VehicleOutput&, const LanePointData&)[m[K’:
+[01m[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:245:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_driving_way_[m[K’ was not declared in this scope; did you mean ‘[01m[Kp_driving_way_[m[K’?
+  245 |         double y_center = [01;31m[Kprev_driving_way_[m[K.a0 + prev_driving_way_.a1 * p.x
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                           [32m[Kp_driving_way_[m[K
+[01m[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:299:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_driving_way_[m[K’ was not declared in this scope; did you mean ‘[01m[Kp_driving_way_[m[K’?
+  299 |         driving_way.a0 = [01;31m[Kprev_driving_way_[m[K.a0;
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                          [32m[Kp_driving_way_[m[K
+[01m[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:304:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_driving_way_[m[K’ was not declared in this scope; did you mean ‘[01m[Kp_driving_way_[m[K’?
+  304 |     [01;31m[Kprev_driving_way_[m[K = driving_way;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kp_driving_way_[m[K
+[01m[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:221:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvehicle_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  221 | sDriving::FindDrivingWay([01;35m[Kconst ad_msgs::msg::VehicleOutput &vehicle_state[m[K,
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+
+[01m[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kdouble AutonomousDriving::LateralControl(const VehicleOutput&, const PolyfitLaneData&)[m[K’:
+[01m[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:324:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kl_xd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  324 |     double [01;35m[Kl_xd[m[K; // look-ahead distance [m]
+      |            [01;35m[K^~~~[m[K
+[01m[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:325:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kg_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  325 |     double [01;35m[Kg_x[m[K, g_y; // look-ahead point coordinates [m]
+      |            [01;35m[K^~~[m[K
+[01m[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:325:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kg_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  325 |     double g_x, [01;35m[Kg_y[m[K; // look-ahead point coordinates [m]
+      |                 [01;35m[K^~~[m[K
+[01m[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:326:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kl_d[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  326 |     double [01;35m[Kl_d[m[K; // distance between vehicle and look-ahead point [m]
+      |            [01;35m[K^~~[m[K
+[01m[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:311:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvehicle_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  311 | sDriving::LateralControl([01;35m[Kconst ad_msgs::msg::VehicleOutput &vehicle_state[m[K,
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+
+[01m[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:312:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdriving_way[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  312 |                        [01;35m[Kconst ad_msgs::msg::PolyfitLaneData &driving_way[m[K) {
+      |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+
+[01m[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Publish(const rclcpp::Time&)[m[K’:
+[01m[K/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:346:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  346 | void AutonomousDriving::Publish([01;35m[Kconst rclcpp::Time &current_time[m[K) {
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/autonomous_driving.dir/build.make:76: CMakeFiles/autonomous_driving.dir/src/autonomous_driving.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/autonomous_driving.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

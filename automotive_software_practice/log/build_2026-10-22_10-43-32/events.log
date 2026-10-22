@@ -1,0 +1,823 @@
+[0.000000] (-) TimerEvent: {}
+[0.000174] (-) JobUnselected: {'identifier': 'evaluation'}
+[0.000255] (-) JobUnselected: {'identifier': 'scenario_runner'}
+[0.000267] (-) JobUnselected: {'identifier': 'simulator'}
+[0.000281] (ad_msgs) JobQueued: {'identifier': 'ad_msgs', 'dependencies': OrderedDict()}
+[0.000294] (autonomous_driving) JobQueued: {'identifier': 'autonomous_driving', 'dependencies': OrderedDict([('ad_msgs', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs')])}
+[0.000311] (ad_msgs) JobStarted: {'identifier': 'ad_msgs'}
+[0.006208] (ad_msgs) JobProgress: {'identifier': 'ad_msgs', 'progress': 'cmake'}
+[0.006507] (ad_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/rte/msg/ad_msgs', '-DCMAKE_INSTALL_PREFIX=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs'], 'cwd': '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/ad_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/ohheemin'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('AI_AGENT', 'claude-code_2-1-307_agent'), ('LANGUAGE', 'ko:en'), ('USER', 'ohheemin'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('LC_TIME', 'ko_KR.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"ko","osLocale":"ko","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"ko","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('CLAUDE_AGENT_SDK_VERSION', '0.3.307'), ('CLAUDE_CODE_SESSION_ATTENDED', '1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda/lib64:'), ('CLAUDE_CODE_MESSAGING_TOKEN', 'dafade59fa11da78961e542d241f0aea'), ('HOME', '/home/ohheemin'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ohheemin/.nvm/versions/node/v20.20.2/bin'), ('NVM_INC', '/home/ohheemin/.nvm/versions/node/v20.20.2/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-5fc13ca4-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2182'), ('SYSTEMD_EXEC_PID', '2602'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CONDA_ROOT', '/home/ohheemin/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3595'), ('NVM_DIR', '/home/ohheemin/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ohheemin'), ('CLAUDE_CODE_EMIT_STARTUP_TIMING', '1'), ('JOURNAL_STREAM', '8:13499'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_QUESTION_PREVIEW_FORMAT', 'markdown'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ohheemin'), ('RMW_FASTRTPS_USE_SHM', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/ohheemin/.local/bin:/usr/local/cuda/bin:/home/ohheemin/.local/bin:/home/ohheemin/.nvm/versions/node/v20.20.2/bin:/home/ohheemin/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda/bin:/home/ohheemin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ohheemin:@/tmp/.ICE-unix/2579,unix/ohheemin:/tmp/.ICE-unix/2579'), ('INVOCATION_ID', '3eafeefdbc5d420faa54c7687efd721c'), ('PAPERSIZE', 'a4'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CLAUDE_EFFORT', 'medium'), ('DISPLAY', ':1'), ('CLAUDE_PID', '5195'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ohheemin/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('CLAUDE_CODE_SESSION_ID', '40ee00c4-a0fb-4190-8d6e-47309c73ff81'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('CMAKE_MODULE_PATH', '/usr/share/eigen3/cmake/:'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/ohheemin/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/ad_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ohheemin/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/ohheemin/.config/Code/CachedData/7d842fb85a0275a4a8e4d7e040d2625abbf7f084'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/ohheemin/.vscode/extensions/anthropic.claude-code-2.1.307-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CLAUDE_CODE_ENABLE_TASKS', '0'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CLAUDE_CODE_MESSAGING_SOCKET', '/run/user/1000/cc-socks/5195.sock'), ('CMAKE_PREFIX_PATH', '/usr/share/eigen3/cmake/:/opt/ros/humble'), ('VSCODE_PID', '3595')]), 'shell': False}
+[0.070260] (ad_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099752] (-) TimerEvent: {}
+[0.117645] (ad_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.124424] (ad_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.169606] (ad_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.173464] (ad_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.174543] (ad_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.175226] (ad_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.177386] (ad_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199836] (-) TimerEvent: {}
+[0.230209] (ad_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.234713] (ad_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.234880] (ad_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.235146] (ad_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.241541] (ad_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299925] (-) TimerEvent: {}
+[0.343733] (ad_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.400003] (-) TimerEvent: {}
+[0.406595] (ad_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.409116] (ad_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.414336] (ad_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.449680] (ad_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.475062] (ad_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.498531] (ad_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.500073] (-) TimerEvent: {}
+[0.510014] (ad_msgs) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.537059] (ad_msgs) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.600138] (-) TimerEvent: {}
+[0.700309] (-) TimerEvent: {}
+[0.796984] (ad_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.800367] (-) TimerEvent: {}
+[0.900476] (-) TimerEvent: {}
+[1.000615] (-) TimerEvent: {}
+[1.018929] (ad_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.100848] (-) TimerEvent: {}
+[1.201176] (-) TimerEvent: {}
+[1.301319] (-) TimerEvent: {}
+[1.305279] (ad_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.320331] (ad_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.321534] (ad_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.339814] (ad_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.339889] (ad_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.339922] (ad_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.339949] (ad_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.353580] (ad_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.401373] (-) TimerEvent: {}
+[1.410921] (ad_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.445705] (ad_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.456260] (ad_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/ad_msgs\n'}
+[1.466745] (ad_msgs) CommandEnded: {'returncode': 0}
+[1.467452] (ad_msgs) JobProgress: {'identifier': 'ad_msgs', 'progress': 'build'}
+[1.467908] (ad_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/ad_msgs', '--', '-j32', '-l32'], 'cwd': '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/ad_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/ohheemin'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('AI_AGENT', 'claude-code_2-1-307_agent'), ('LANGUAGE', 'ko:en'), ('USER', 'ohheemin'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('LC_TIME', 'ko_KR.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"ko","osLocale":"ko","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"ko","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('CLAUDE_AGENT_SDK_VERSION', '0.3.307'), ('CLAUDE_CODE_SESSION_ATTENDED', '1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda/lib64:'), ('CLAUDE_CODE_MESSAGING_TOKEN', 'dafade59fa11da78961e542d241f0aea'), ('HOME', '/home/ohheemin'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ohheemin/.nvm/versions/node/v20.20.2/bin'), ('NVM_INC', '/home/ohheemin/.nvm/versions/node/v20.20.2/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-5fc13ca4-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2182'), ('SYSTEMD_EXEC_PID', '2602'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CONDA_ROOT', '/home/ohheemin/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3595'), ('NVM_DIR', '/home/ohheemin/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ohheemin'), ('CLAUDE_CODE_EMIT_STARTUP_TIMING', '1'), ('JOURNAL_STREAM', '8:13499'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_QUESTION_PREVIEW_FORMAT', 'markdown'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ohheemin'), ('RMW_FASTRTPS_USE_SHM', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/ohheemin/.local/bin:/usr/local/cuda/bin:/home/ohheemin/.local/bin:/home/ohheemin/.nvm/versions/node/v20.20.2/bin:/home/ohheemin/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda/bin:/home/ohheemin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ohheemin:@/tmp/.ICE-unix/2579,unix/ohheemin:/tmp/.ICE-unix/2579'), ('INVOCATION_ID', '3eafeefdbc5d420faa54c7687efd721c'), ('PAPERSIZE', 'a4'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CLAUDE_EFFORT', 'medium'), ('DISPLAY', ':1'), ('CLAUDE_PID', '5195'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ohheemin/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('CLAUDE_CODE_SESSION_ID', '40ee00c4-a0fb-4190-8d6e-47309c73ff81'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('CMAKE_MODULE_PATH', '/usr/share/eigen3/cmake/:'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/ohheemin/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/ad_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ohheemin/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/ohheemin/.config/Code/CachedData/7d842fb85a0275a4a8e4d7e040d2625abbf7f084'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/ohheemin/.vscode/extensions/anthropic.claude-code-2.1.307-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CLAUDE_CODE_ENABLE_TASKS', '0'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CLAUDE_CODE_MESSAGING_SOCKET', '/run/user/1000/cc-socks/5195.sock'), ('CMAKE_PREFIX_PATH', '/usr/share/eigen3/cmake/:/opt/ros/humble'), ('VSCODE_PID', '3595')]), 'shell': False}
+[1.495960] (ad_msgs) StdoutLine: {'line': b'[  1%] Generating C code for ROS interfaces\n'}
+[1.501443] (-) TimerEvent: {}
+[1.502717] (ad_msgs) StdoutLine: {'line': b'[  2%] Generating C++ code for ROS interfaces\n'}
+[1.506867] (ad_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_ad_msgs\n'}
+[1.601568] (-) TimerEvent: {}
+[1.701919] (-) TimerEvent: {}
+[1.802309] (-) TimerEvent: {}
+[1.858164] (ad_msgs) StderrLine: {'line': b'/home/ohheemin/.local/lib/python3.10/site-packages/setuptools_scm/_integration/setuptools.py:31: RuntimeWarning: \n'}
+[1.858516] (ad_msgs) StderrLine: {'line': b'ERROR: setuptools==59.6.0 is used in combination with setuptools-scm>=8.x\n'}
+[1.858682] (ad_msgs) StderrLine: {'line': b'\n'}
+[1.858827] (ad_msgs) StderrLine: {'line': b'Your build configuration is incomplete and previously worked by accident!\n'}
+[1.858963] (ad_msgs) StderrLine: {'line': b'setuptools-scm requires setuptools>=61\n'}
+[1.859092] (ad_msgs) StderrLine: {'line': b'\n'}
+[1.859250] (ad_msgs) StderrLine: {'line': b'Suggested workaround if applicable:\n'}
+[1.859413] (ad_msgs) StderrLine: {'line': b' - migrating from the deprecated setup_requires mechanism to pep517/518\n'}
+[1.859585] (ad_msgs) StderrLine: {'line': b'   and using a pyproject.toml to declare build dependencies\n'}
+[1.859751] (ad_msgs) StderrLine: {'line': b'   which are reliably pre-installed before running the build tools\n'}
+[1.859924] (ad_msgs) StderrLine: {'line': b'\n'}
+[1.860090] (ad_msgs) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.879219] (ad_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.879898] (ad_msgs) StdoutLine: {'line': b'creating ad_msgs.egg-info\n'}
+[1.880271] (ad_msgs) StdoutLine: {'line': b'writing ad_msgs.egg-info/PKG-INFO\n'}
+[1.880473] (ad_msgs) StdoutLine: {'line': b'writing dependency_links to ad_msgs.egg-info/dependency_links.txt\n'}
+[1.880648] (ad_msgs) StdoutLine: {'line': b'writing top-level names to ad_msgs.egg-info/top_level.txt\n'}
+[1.880816] (ad_msgs) StdoutLine: {'line': b"writing manifest file 'ad_msgs.egg-info/SOURCES.txt'\n"}
+[1.902357] (-) TimerEvent: {}
+[1.982115] (ad_msgs) StderrLine: {'line': b'[10/22/26 10:43:34] ERROR    listing git files failed - pretending     git.py:26\n'}
+[1.982551] (ad_msgs) StderrLine: {'line': b"                             there aren't any                                   \n"}
+[2.002444] (-) TimerEvent: {}
+[2.063710] (ad_msgs) StdoutLine: {'line': b'[  2%] Built target ad_msgs__cpp\n'}
+[2.074959] (ad_msgs) StdoutLine: {'line': b'[  3%] Generating C++ type support dispatch for ROS interfaces\n'}
+[2.075251] (ad_msgs) StdoutLine: {'line': b'[  5%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[2.076774] (ad_msgs) StdoutLine: {'line': b'[  6%] Generating C++ introspection for ROS interfaces\n'}
+[2.090123] (ad_msgs) StdoutLine: {'line': b'[  7%] Building C object CMakeFiles/ad_msgs__rosidl_generator_c.dir/rosidl_generator_c/ad_msgs/msg/detail/vehicle_output__functions.c.o\n'}
+[2.090296] (ad_msgs) StdoutLine: {'line': b'[ 10%] Building C object CMakeFiles/ad_msgs__rosidl_generator_c.dir/rosidl_generator_c/ad_msgs/msg/detail/obstacles__functions.c.o\n'}
+[2.090373] (ad_msgs) StdoutLine: {'line': b'[ 10%] Building C object CMakeFiles/ad_msgs__rosidl_generator_c.dir/rosidl_generator_c/ad_msgs/msg/detail/vehicle_input__functions.c.o\n'}
+[2.090556] (ad_msgs) StdoutLine: {'line': b'[ 11%] Building C object CMakeFiles/ad_msgs__rosidl_generator_c.dir/rosidl_generator_c/ad_msgs/msg/detail/polyfit_lane_data__functions.c.o\n'}
+[2.090738] (ad_msgs) StdoutLine: {'line': b'[ 13%] Building C object CMakeFiles/ad_msgs__rosidl_generator_c.dir/rosidl_generator_c/ad_msgs/msg/detail/lane_point_data_array__functions.c.o\n'}
+[2.090804] (ad_msgs) StdoutLine: {'line': b'[ 13%] Building C object CMakeFiles/ad_msgs__rosidl_generator_c.dir/rosidl_generator_c/ad_msgs/msg/detail/lane_point_data__functions.c.o\n'}
+[2.091090] (ad_msgs) StdoutLine: {'line': b'[ 15%] Building C object CMakeFiles/ad_msgs__rosidl_generator_c.dir/rosidl_generator_c/ad_msgs/msg/detail/polyfit_lane_data_array__functions.c.o\n'}
+[2.102526] (-) TimerEvent: {}
+[2.141375] (ad_msgs) StdoutLine: {'line': b"reading manifest file 'ad_msgs.egg-info/SOURCES.txt'\n"}
+[2.141944] (ad_msgs) StdoutLine: {'line': b"writing manifest file 'ad_msgs.egg-info/SOURCES.txt'\n"}
+[2.147478] (ad_msgs) StdoutLine: {'line': b'[ 16%] Linking C shared library libad_msgs__rosidl_generator_c.so\n'}
+[2.181408] (ad_msgs) StdoutLine: {'line': b'[ 16%] Built target ament_cmake_python_build_ad_msgs_egg\n'}
+[2.202633] (-) TimerEvent: {}
+[2.213233] (ad_msgs) StdoutLine: {'line': b'[ 16%] Built target ad_msgs__rosidl_generator_c\n'}
+[2.230590] (ad_msgs) StdoutLine: {'line': b'[ 20%] Generating C introspection for ROS interfaces\n'}
+[2.230800] (ad_msgs) StdoutLine: {'line': b'[ 20%] Generating C type support for eProsima Fast-RTPS\n'}
+[2.230906] (ad_msgs) StdoutLine: {'line': b'[ 20%] Generating C type support dispatch for ROS interfaces\n'}
+[2.302737] (-) TimerEvent: {}
+[2.402932] (-) TimerEvent: {}
+[2.503147] (-) TimerEvent: {}
+[2.591277] (ad_msgs) StdoutLine: {'line': b'[ 21%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ad_msgs/msg/vehicle_output__type_support.cpp.o\n'}
+[2.591565] (ad_msgs) StdoutLine: {'line': b'[ 22%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ad_msgs/msg/obstacles__type_support.cpp.o\n'}
+[2.591734] (ad_msgs) StdoutLine: {'line': b'[ 24%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ad_msgs/msg/polyfit_lane_data__type_support.cpp.o\n'}
+[2.592625] (ad_msgs) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ad_msgs/msg/vehicle_input__type_support.cpp.o\n'}
+[2.592764] (ad_msgs) StdoutLine: {'line': b'[ 26%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ad_msgs/msg/lane_point_data__type_support.cpp.o\n'}
+[2.593319] (ad_msgs) StdoutLine: {'line': b'[ 27%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ad_msgs/msg/lane_point_data_array__type_support.cpp.o\n'}
+[2.593404] (ad_msgs) StdoutLine: {'line': b'[ 29%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ad_msgs/msg/polyfit_lane_data_array__type_support.cpp.o\n'}
+[2.603203] (-) TimerEvent: {}
+[2.667861] (ad_msgs) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ad_msgs/msg/detail/vehicle_input__type_support.cpp.o\n'}
+[2.668131] (ad_msgs) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ad_msgs/msg/detail/lane_point_data__type_support.cpp.o\n'}
+[2.668294] (ad_msgs) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ad_msgs/msg/detail/vehicle_output__type_support.cpp.o\n'}
+[2.668382] (ad_msgs) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ad_msgs/msg/detail/polyfit_lane_data__type_support.cpp.o\n'}
+[2.668470] (ad_msgs) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ad_msgs/msg/detail/obstacles__type_support.cpp.o\n'}
+[2.671337] (ad_msgs) StdoutLine: {'line': b'[ 37%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ad_msgs/msg/detail/lane_point_data_array__type_support.cpp.o\n'}
+[2.671539] (ad_msgs) StdoutLine: {'line': b'[ 37%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ad_msgs/msg/detail/polyfit_lane_data_array__type_support.cpp.o\n'}
+[2.703315] (-) TimerEvent: {}
+[2.768952] (ad_msgs) StdoutLine: {'line': b'[ 41%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ad_msgs/msg/detail/dds_fastrtps/vehicle_output__type_support.cpp.o\n'}
+[2.769517] (ad_msgs) StdoutLine: {'line': b'[ 41%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ad_msgs/msg/detail/dds_fastrtps/obstacles__type_support.cpp.o\n'}
+[2.769628] (ad_msgs) StdoutLine: {'line': b'[ 41%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ad_msgs/msg/detail/dds_fastrtps/polyfit_lane_data__type_support.cpp.o\n'}
+[2.769719] (ad_msgs) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ad_msgs/msg/detail/dds_fastrtps/lane_point_data__type_support.cpp.o\n'}
+[2.769802] (ad_msgs) StdoutLine: {'line': b'[ 44%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ad_msgs/msg/detail/dds_fastrtps/lane_point_data_array__type_support.cpp.o\n'}
+[2.772572] (ad_msgs) StdoutLine: {'line': b'[ 46%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ad_msgs/msg/detail/dds_fastrtps/polyfit_lane_data_array__type_support.cpp.o\n'}
+[2.772770] (ad_msgs) StdoutLine: {'line': b'[ 46%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ad_msgs/msg/detail/dds_fastrtps/vehicle_input__type_support.cpp.o\n'}
+[2.803457] (-) TimerEvent: {}
+[2.828767] (ad_msgs) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ad_msgs/msg/obstacles__type_support.cpp.o\n'}
+[2.829112] (ad_msgs) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ad_msgs/msg/vehicle_input__type_support.cpp.o\n'}
+[2.829315] (ad_msgs) StdoutLine: {'line': b'[ 54%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ad_msgs/msg/lane_point_data__type_support.cpp.o\n'}
+[2.829395] (ad_msgs) StdoutLine: {'line': b'[ 54%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ad_msgs/msg/lane_point_data_array__type_support.cpp.o\n'}
+[2.829466] (ad_msgs) StdoutLine: {'line': b'[ 54%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ad_msgs/msg/polyfit_lane_data_array__type_support.cpp.o\n'}
+[2.829531] (ad_msgs) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ad_msgs/msg/vehicle_output__type_support.cpp.o\n'}
+[2.829594] (ad_msgs) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/ad_msgs/msg/polyfit_lane_data__type_support.cpp.o\n'}
+[2.895623] (ad_msgs) StdoutLine: {'line': b'[ 56%] Linking CXX shared library libad_msgs__rosidl_typesupport_c.so\n'}
+[2.903567] (-) TimerEvent: {}
+[2.948384] (ad_msgs) StdoutLine: {'line': b'[ 58%] Building C object CMakeFiles/ad_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ad_msgs/msg/detail/vehicle_input__type_support.c.o\n'}
+[2.949435] (ad_msgs) StdoutLine: {'line': b'[ 60%] Building C object CMakeFiles/ad_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ad_msgs/msg/detail/obstacles__type_support.c.o\n'}
+[2.949567] (ad_msgs) StdoutLine: {'line': b'[ 60%] Building C object CMakeFiles/ad_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ad_msgs/msg/detail/vehicle_output__type_support.c.o\n'}
+[2.949655] (ad_msgs) StdoutLine: {'line': b'[ 62%] Building C object CMakeFiles/ad_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ad_msgs/msg/detail/lane_point_data__type_support.c.o\n'}
+[2.953233] (ad_msgs) StdoutLine: {'line': b'[ 63%] Building C object CMakeFiles/ad_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ad_msgs/msg/detail/polyfit_lane_data__type_support.c.o\n'}
+[2.956413] (ad_msgs) StdoutLine: {'line': b'[ 64%] Building C object CMakeFiles/ad_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ad_msgs/msg/detail/polyfit_lane_data_array__type_support.c.o\n'}
+[2.960886] (ad_msgs) StdoutLine: {'line': b'[ 65%] Building C object CMakeFiles/ad_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ad_msgs/msg/detail/lane_point_data_array__type_support.c.o\n'}
+[3.003828] (ad_msgs) StdoutLine: {'line': b'[ 65%] Built target ad_msgs__rosidl_typesupport_c\n'}
+[3.004225] (-) TimerEvent: {}
+[3.044445] (ad_msgs) StdoutLine: {'line': b'[ 67%] Linking CXX shared library libad_msgs__rosidl_typesupport_cpp.so\n'}
+[3.057865] (ad_msgs) StdoutLine: {'line': b'[ 68%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ad_msgs/msg/detail/obstacles__type_support_c.cpp.o\n'}
+[3.058190] (ad_msgs) StdoutLine: {'line': b'[ 69%] Linking C shared library libad_msgs__rosidl_typesupport_introspection_c.so\n'}
+[3.059820] (ad_msgs) StdoutLine: {'line': b'[ 70%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ad_msgs/msg/detail/polyfit_lane_data__type_support_c.cpp.o\n'}
+[3.060528] (ad_msgs) StdoutLine: {'line': b'[ 74%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ad_msgs/msg/detail/vehicle_input__type_support_c.cpp.o\n'}
+[3.060670] (ad_msgs) StdoutLine: {'line': b'[ 74%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ad_msgs/msg/detail/lane_point_data__type_support_c.cpp.o\n'}
+[3.060720] (ad_msgs) StdoutLine: {'line': b'[ 74%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ad_msgs/msg/detail/vehicle_output__type_support_c.cpp.o\n'}
+[3.061169] (ad_msgs) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ad_msgs/msg/detail/polyfit_lane_data_array__type_support_c.cpp.o\n'}
+[3.061305] (ad_msgs) StdoutLine: {'line': b'[ 77%] Building CXX object CMakeFiles/ad_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ad_msgs/msg/detail/lane_point_data_array__type_support_c.cpp.o\n'}
+[3.104383] (-) TimerEvent: {}
+[3.116850] (ad_msgs) StdoutLine: {'line': b'[ 77%] Built target ad_msgs__rosidl_typesupport_introspection_c\n'}
+[3.118992] (ad_msgs) StdoutLine: {'line': b'[ 77%] Built target ad_msgs__rosidl_typesupport_cpp\n'}
+[3.204821] (-) TimerEvent: {}
+[3.302629] (ad_msgs) StdoutLine: {'line': b'[ 78%] Linking CXX shared library libad_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[3.304856] (-) TimerEvent: {}
+[3.385383] (ad_msgs) StdoutLine: {'line': b'[ 78%] Built target ad_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.404966] (-) TimerEvent: {}
+[3.408267] (ad_msgs) StdoutLine: {'line': b'[ 79%] Linking CXX shared library libad_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.450381] (ad_msgs) StdoutLine: {'line': b'[ 81%] Linking CXX shared library libad_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[3.470594] (ad_msgs) StdoutLine: {'line': b'[ 81%] Built target ad_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[3.502206] (ad_msgs) StdoutLine: {'line': b'[ 81%] Built target ad_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.505012] (-) TimerEvent: {}
+[3.516254] (ad_msgs) StdoutLine: {'line': b'[ 81%] Built target ad_msgs\n'}
+[3.530038] (ad_msgs) StdoutLine: {'line': b'[ 82%] Generating Python code for ROS interfaces\n'}
+[3.605183] (-) TimerEvent: {}
+[3.705395] (-) TimerEvent: {}
+[3.805547] (-) TimerEvent: {}
+[3.905659] (-) TimerEvent: {}
+[4.005842] (-) TimerEvent: {}
+[4.105991] (-) TimerEvent: {}
+[4.155488] (ad_msgs) StdoutLine: {'line': b'[ 82%] Built target ad_msgs__py\n'}
+[4.176718] (ad_msgs) StdoutLine: {'line': b'[ 84%] Building C object CMakeFiles/ad_msgs__rosidl_generator_py.dir/rosidl_generator_py/ad_msgs/msg/_obstacles_s.c.o\n'}
+[4.176898] (ad_msgs) StdoutLine: {'line': b'[ 84%] Building C object CMakeFiles/ad_msgs__rosidl_generator_py.dir/rosidl_generator_py/ad_msgs/msg/_vehicle_output_s.c.o\n'}
+[4.177437] (ad_msgs) StdoutLine: {'line': b'[ 86%] Building C object CMakeFiles/ad_msgs__rosidl_generator_py.dir/rosidl_generator_py/ad_msgs/msg/_lane_point_data_array_s.c.o\n'}
+[4.177744] (ad_msgs) StdoutLine: {'line': b'[ 91%] Building C object CMakeFiles/ad_msgs__rosidl_generator_py.dir/rosidl_generator_py/ad_msgs/msg/_polyfit_lane_data_array_s.c.o\n'}
+[4.177789] (ad_msgs) StdoutLine: {'line': b'[ 91%] Building C object CMakeFiles/ad_msgs__rosidl_generator_py.dir/rosidl_generator_py/ad_msgs/msg/_vehicle_input_s.c.o\n'}
+[4.177823] (ad_msgs) StdoutLine: {'line': b'[ 91%] Building C object CMakeFiles/ad_msgs__rosidl_generator_py.dir/rosidl_generator_py/ad_msgs/msg/_lane_point_data_s.c.o\n'}
+[4.177854] (ad_msgs) StdoutLine: {'line': b'[ 91%] Building C object CMakeFiles/ad_msgs__rosidl_generator_py.dir/rosidl_generator_py/ad_msgs/msg/_polyfit_lane_data_s.c.o\n'}
+[4.206101] (-) TimerEvent: {}
+[4.287140] (ad_msgs) StdoutLine: {'line': b'[ 92%] Linking C shared library rosidl_generator_py/ad_msgs/libad_msgs__rosidl_generator_py.so\n'}
+[4.306179] (-) TimerEvent: {}
+[4.322880] (ad_msgs) StdoutLine: {'line': b'[ 92%] Built target ad_msgs__rosidl_generator_py\n'}
+[4.337270] (ad_msgs) StdoutLine: {'line': b'[ 94%] Building C object CMakeFiles/ad_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ad_msgs/_ad_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[4.337427] (ad_msgs) StdoutLine: {'line': b'[ 94%] Building C object CMakeFiles/ad_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ad_msgs/_ad_msgs_s.ep.rosidl_typesupport_c.c.o\n'}
+[4.337607] (ad_msgs) StdoutLine: {'line': b'[ 96%] Building C object CMakeFiles/ad_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ad_msgs/_ad_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[4.406287] (-) TimerEvent: {}
+[4.420347] (ad_msgs) StdoutLine: {'line': b'[ 98%] Linking C shared library rosidl_generator_py/ad_msgs/ad_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.420473] (ad_msgs) StdoutLine: {'line': b'[ 98%] Linking C shared library rosidl_generator_py/ad_msgs/ad_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.421039] (ad_msgs) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/ad_msgs/ad_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.451826] (ad_msgs) StdoutLine: {'line': b'[100%] Built target ad_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.452984] (ad_msgs) StdoutLine: {'line': b'[100%] Built target ad_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[4.454075] (ad_msgs) StdoutLine: {'line': b'[100%] Built target ad_msgs__rosidl_typesupport_c__pyext\n'}
+[4.464823] (ad_msgs) CommandEnded: {'returncode': 0}
+[4.466017] (ad_msgs) JobProgress: {'identifier': 'ad_msgs', 'progress': 'install'}
+[4.471174] (ad_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/ad_msgs'], 'cwd': '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/ad_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/ohheemin'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('AI_AGENT', 'claude-code_2-1-307_agent'), ('LANGUAGE', 'ko:en'), ('USER', 'ohheemin'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('LC_TIME', 'ko_KR.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"ko","osLocale":"ko","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"ko","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('CLAUDE_AGENT_SDK_VERSION', '0.3.307'), ('CLAUDE_CODE_SESSION_ATTENDED', '1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda/lib64:'), ('CLAUDE_CODE_MESSAGING_TOKEN', 'dafade59fa11da78961e542d241f0aea'), ('HOME', '/home/ohheemin'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ohheemin/.nvm/versions/node/v20.20.2/bin'), ('NVM_INC', '/home/ohheemin/.nvm/versions/node/v20.20.2/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-5fc13ca4-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2182'), ('SYSTEMD_EXEC_PID', '2602'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CONDA_ROOT', '/home/ohheemin/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3595'), ('NVM_DIR', '/home/ohheemin/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ohheemin'), ('CLAUDE_CODE_EMIT_STARTUP_TIMING', '1'), ('JOURNAL_STREAM', '8:13499'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_QUESTION_PREVIEW_FORMAT', 'markdown'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ohheemin'), ('RMW_FASTRTPS_USE_SHM', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/ohheemin/.local/bin:/usr/local/cuda/bin:/home/ohheemin/.local/bin:/home/ohheemin/.nvm/versions/node/v20.20.2/bin:/home/ohheemin/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda/bin:/home/ohheemin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ohheemin:@/tmp/.ICE-unix/2579,unix/ohheemin:/tmp/.ICE-unix/2579'), ('INVOCATION_ID', '3eafeefdbc5d420faa54c7687efd721c'), ('PAPERSIZE', 'a4'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CLAUDE_EFFORT', 'medium'), ('DISPLAY', ':1'), ('CLAUDE_PID', '5195'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ohheemin/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('CLAUDE_CODE_SESSION_ID', '40ee00c4-a0fb-4190-8d6e-47309c73ff81'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('CMAKE_MODULE_PATH', '/usr/share/eigen3/cmake/:'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/ohheemin/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/ad_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ohheemin/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/ohheemin/.config/Code/CachedData/7d842fb85a0275a4a8e4d7e040d2625abbf7f084'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/ohheemin/.vscode/extensions/anthropic.claude-code-2.1.307-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CLAUDE_CODE_ENABLE_TASKS', '0'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CLAUDE_CODE_MESSAGING_SOCKET', '/run/user/1000/cc-socks/5195.sock'), ('CMAKE_PREFIX_PATH', '/usr/share/eigen3/cmake/:/opt/ros/humble'), ('VSCODE_PID', '3595')]), 'shell': False}
+[4.477080] (ad_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.477205] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ament_index/resource_index/rosidl_interfaces/ad_msgs\n'}
+[4.477310] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs\n'}
+[4.477426] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg\n'}
+[4.477487] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/vehicle_output.h\n'}
+[4.477567] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/polyfit_lane_data_array.h\n'}
+[4.477672] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/lane_point_data_array.h\n'}
+[4.477704] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.477777] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/polyfit_lane_data.h\n'}
+[4.477856] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/lane_point_data.h\n'}
+[4.477927] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/vehicle_input.h\n'}
+[4.478039] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail\n'}
+[4.478072] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data_array__type_support.h\n'}
+[4.478166] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data_array__functions.h\n'}
+[4.478299] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data__type_support.h\n'}
+[4.478381] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data__functions.h\n'}
+[4.478410] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data__type_support.h\n'}
+[4.478519] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_output__type_support.h\n'}
+[4.478550] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_output__functions.h\n'}
+[4.478625] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/obstacles__struct.h\n'}
+[4.478704] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data_array__functions.c\n'}
+[4.478782] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_output__functions.c\n'}
+[4.478855] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data_array__functions.c\n'}
+[4.478934] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_input__type_support.h\n'}
+[4.479006] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_input__functions.h\n'}
+[4.479083] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data__functions.c\n'}
+[4.479165] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data__functions.c\n'}
+[4.479250] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_input__struct.h\n'}
+[4.479324] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data_array__functions.h\n'}
+[4.479406] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_input__functions.c\n'}
+[4.479481] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/obstacles__type_support.h\n'}
+[4.479555] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data_array__struct.h\n'}
+[4.479630] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data__struct.h\n'}
+[4.479703] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/obstacles__functions.h\n'}
+[4.479784] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/obstacles__functions.c\n'}
+[4.479864] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data__struct.h\n'}
+[4.479942] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data__functions.h\n'}
+[4.480022] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data_array__type_support.h\n'}
+[4.480103] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data_array__struct.h\n'}
+[4.480184] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_output__struct.h\n'}
+[4.480268] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/obstacles.h\n'}
+[4.480415] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/environment/library_path.sh\n'}
+[4.480508] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/environment/library_path.dsv\n'}
+[4.480632] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib/libad_msgs__rosidl_generator_c.so\n'}
+[4.480874] (ad_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib/libad_msgs__rosidl_generator_c.so" to ""\n'}
+[4.480968] (ad_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs\n'}
+[4.480997] (ad_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg\n'}
+[4.481049] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.481141] (ad_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail\n'}
+[4.481211] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_output__rosidl_typesupport_fastrtps_c.h\n'}
+[4.481261] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_input__rosidl_typesupport_fastrtps_c.h\n'}
+[4.481325] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data__rosidl_typesupport_fastrtps_c.h\n'}
+[4.481403] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data_array__rosidl_typesupport_fastrtps_c.h\n'}
+[4.481469] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/obstacles__rosidl_typesupport_fastrtps_c.h\n'}
+[4.481549] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data__rosidl_typesupport_fastrtps_c.h\n'}
+[4.481621] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data_array__rosidl_typesupport_fastrtps_c.h\n'}
+[4.481691] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib/libad_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[4.481948] (ad_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib/libad_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.482033] (ad_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs\n'}
+[4.482065] (ad_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg\n'}
+[4.482095] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.482177] (ad_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail\n'}
+[4.482215] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_output__type_support.c\n'}
+[4.482289] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data_array__type_support.c\n'}
+[4.482359] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data__rosidl_typesupport_introspection_c.h\n'}
+[4.482438] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data__type_support.c\n'}
+[4.482532] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data_array__rosidl_typesupport_introspection_c.h\n'}
+[4.482617] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data_array__type_support.c\n'}
+[4.482713] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_input__rosidl_typesupport_introspection_c.h\n'}
+[4.482799] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/obstacles__type_support.c\n'}
+[4.482893] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_input__type_support.c\n'}
+[4.482986] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_output__rosidl_typesupport_introspection_c.h\n'}
+[4.483075] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data__rosidl_typesupport_introspection_c.h\n'}
+[4.483194] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data_array__rosidl_typesupport_introspection_c.h\n'}
+[4.483281] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data__type_support.c\n'}
+[4.483359] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/obstacles__rosidl_typesupport_introspection_c.h\n'}
+[4.483473] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib/libad_msgs__rosidl_typesupport_introspection_c.so\n'}
+[4.483759] (ad_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib/libad_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.483884] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib/libad_msgs__rosidl_typesupport_c.so\n'}
+[4.484041] (ad_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib/libad_msgs__rosidl_typesupport_c.so" to ""\n'}
+[4.484164] (ad_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs\n'}
+[4.484230] (ad_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg\n'}
+[4.484263] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/polyfit_lane_data.hpp\n'}
+[4.484295] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/vehicle_input.hpp\n'}
+[4.484349] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/polyfit_lane_data_array.hpp\n'}
+[4.484397] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/obstacles.hpp\n'}
+[4.484470] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[4.484552] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/lane_point_data.hpp\n'}
+[4.484651] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/vehicle_output.hpp\n'}
+[4.484724] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/lane_point_data_array.hpp\n'}
+[4.484795] (ad_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail\n'}
+[4.484858] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_input__type_support.hpp\n'}
+[4.484951] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/obstacles__traits.hpp\n'}
+[4.485042] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data_array__traits.hpp\n'}
+[4.485145] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data_array__type_support.hpp\n'}
+[4.485232] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data__traits.hpp\n'}
+[4.485319] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_input__builder.hpp\n'}
+[4.485407] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data_array__builder.hpp\n'}
+[4.485495] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data_array__struct.hpp\n'}
+[4.485581] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data__struct.hpp\n'}
+[4.485675] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_input__traits.hpp\n'}
+[4.485763] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_output__traits.hpp\n'}
+[4.485855] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data__struct.hpp\n'}
+[4.485944] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data_array__builder.hpp\n'}
+[4.486032] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data_array__traits.hpp\n'}
+[4.486128] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/obstacles__type_support.hpp\n'}
+[4.486223] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data__builder.hpp\n'}
+[4.486313] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data__builder.hpp\n'}
+[4.486402] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/obstacles__builder.hpp\n'}
+[4.486490] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data_array__struct.hpp\n'}
+[4.486590] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_output__builder.hpp\n'}
+[4.486676] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_output__struct.hpp\n'}
+[4.486767] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_input__struct.hpp\n'}
+[4.486874] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data_array__type_support.hpp\n'}
+[4.486961] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data__type_support.hpp\n'}
+[4.487055] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_output__type_support.hpp\n'}
+[4.487159] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/obstacles__struct.hpp\n'}
+[4.487333] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data__type_support.hpp\n'}
+[4.487433] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data__traits.hpp\n'}
+[4.487550] (ad_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs\n'}
+[4.487624] (ad_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg\n'}
+[4.487657] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.487710] (ad_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail\n'}
+[4.487763] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.487847] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_output__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.487944] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.488041] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/dds_fastrtps\n'}
+[4.488125] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/obstacles__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.488245] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.488343] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.488451] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_input__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.488595] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib/libad_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.489077] (ad_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib/libad_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.489141] (ad_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs\n'}
+[4.489202] (ad_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg\n'}
+[4.489233] (ad_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail\n'}
+[4.489290] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.489345] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_output__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.489417] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data__type_support.cpp\n'}
+[4.489518] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.489624] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data_array__type_support.cpp\n'}
+[4.489762] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_input__type_support.cpp\n'}
+[4.489859] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_input__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.489953] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.490064] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data_array__type_support.cpp\n'}
+[4.490202] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/obstacles__type_support.cpp\n'}
+[4.490422] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/polyfit_lane_data_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.490623] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data__type_support.cpp\n'}
+[4.490806] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/vehicle_output__type_support.cpp\n'}
+[4.491023] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/obstacles__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.491289] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib/libad_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[4.491821] (ad_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib/libad_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.491925] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib/libad_msgs__rosidl_typesupport_cpp.so\n'}
+[4.492198] (ad_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib/libad_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[4.492289] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/environment/pythonpath.sh\n'}
+[4.492399] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/environment/pythonpath.dsv\n'}
+[4.492540] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs-0.0.0-py3.10.egg-info\n'}
+[4.492707] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.492826] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.492937] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.493047] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.493202] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs\n'}
+[4.493301] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/ad_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.493453] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/_ad_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.493598] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/_ad_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[4.493749] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/libad_msgs__rosidl_generator_py.so\n'}
+[4.493926] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/ad_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.494063] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/ad_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.494226] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/_ad_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.494387] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/__init__.py\n'}
+[4.494502] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/msg\n'}
+[4.494606] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/msg/_polyfit_lane_data_array.py\n'}
+[4.494744] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/msg/_lane_point_data_array.py\n'}
+[4.494876] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/msg/_polyfit_lane_data_array_s.c\n'}
+[4.495008] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/msg/_vehicle_output.py\n'}
+[4.495157] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/msg/_vehicle_output_s.c\n'}
+[4.495344] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/msg/_obstacles.py\n'}
+[4.495455] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/msg/_vehicle_input_s.c\n'}
+[4.495591] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/msg/_polyfit_lane_data_s.c\n'}
+[4.495730] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/msg/_lane_point_data_array_s.c\n'}
+[4.495863] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/msg/_lane_point_data.py\n'}
+[4.496097] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/msg/_vehicle_input.py\n'}
+[4.496325] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/msg/_obstacles_s.c\n'}
+[4.496488] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/msg/_lane_point_data_s.c\n'}
+[4.496664] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/msg/__init__.py\n'}
+[4.496841] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/msg/_polyfit_lane_data.py\n'}
+[4.506343] (-) TimerEvent: {}
+[4.525713] (ad_msgs) StdoutLine: {'line': b"Listing '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs'...\n"}
+[4.525775] (ad_msgs) StdoutLine: {'line': b"Compiling '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/__init__.py'...\n"}
+[4.525816] (ad_msgs) StdoutLine: {'line': b"Listing '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/msg'...\n"}
+[4.525853] (ad_msgs) StdoutLine: {'line': b"Compiling '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/msg/__init__.py'...\n"}
+[4.525891] (ad_msgs) StdoutLine: {'line': b"Compiling '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/msg/_lane_point_data.py'...\n"}
+[4.525927] (ad_msgs) StdoutLine: {'line': b"Compiling '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/msg/_lane_point_data_array.py'...\n"}
+[4.525962] (ad_msgs) StdoutLine: {'line': b"Compiling '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/msg/_obstacles.py'...\n"}
+[4.525997] (ad_msgs) StdoutLine: {'line': b"Compiling '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/msg/_polyfit_lane_data.py'...\n"}
+[4.526035] (ad_msgs) StdoutLine: {'line': b"Compiling '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/msg/_polyfit_lane_data_array.py'...\n"}
+[4.526073] (ad_msgs) StdoutLine: {'line': b"Compiling '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/msg/_vehicle_input.py'...\n"}
+[4.526107] (ad_msgs) StdoutLine: {'line': b"Compiling '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/msg/_vehicle_output.py'...\n"}
+[4.530056] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/ad_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.530485] (ad_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/ad_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.530663] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/ad_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.530919] (ad_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/ad_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.531067] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/ad_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.531323] (ad_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages/ad_msgs/ad_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.531417] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib/libad_msgs__rosidl_generator_py.so\n'}
+[4.531700] (ad_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib/libad_msgs__rosidl_generator_py.so" to ""\n'}
+[4.531783] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/msg/VehicleOutput.idl\n'}
+[4.531904] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/msg/VehicleInput.idl\n'}
+[4.532032] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/msg/Obstacles.idl\n'}
+[4.532170] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/msg/PolyfitLaneData.idl\n'}
+[4.532302] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/msg/LanePointData.idl\n'}
+[4.532416] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/msg/LanePointDataArray.idl\n'}
+[4.532540] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/msg/PolyfitLaneDataArray.idl\n'}
+[4.532675] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/msg/VehicleOutput.msg\n'}
+[4.532811] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/msg/VehicleInput.msg\n'}
+[4.532928] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/msg/Obstacles.msg\n'}
+[4.533057] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/msg/PolyfitLaneData.msg\n'}
+[4.533208] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/msg/LanePointData.msg\n'}
+[4.533333] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/msg/LanePointDataArray.msg\n'}
+[4.533455] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/msg/PolyfitLaneDataArray.msg\n'}
+[4.533643] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ament_index/resource_index/package_run_dependencies/ad_msgs\n'}
+[4.533808] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ament_index/resource_index/parent_prefix_path/ad_msgs\n'}
+[4.533945] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/environment/ament_prefix_path.sh\n'}
+[4.534064] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/environment/ament_prefix_path.dsv\n'}
+[4.534212] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/environment/path.sh\n'}
+[4.534347] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/environment/path.dsv\n'}
+[4.534481] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/local_setup.bash\n'}
+[4.534603] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/local_setup.sh\n'}
+[4.534746] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/local_setup.zsh\n'}
+[4.534878] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/local_setup.dsv\n'}
+[4.535076] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/package.dsv\n'}
+[4.535327] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ament_index/resource_index/packages/ad_msgs\n'}
+[4.535607] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake/export_ad_msgs__rosidl_generator_cExport.cmake\n'}
+[4.535815] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake/export_ad_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.536042] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake/export_ad_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.536228] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake/export_ad_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.536386] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake/ad_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.536535] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake/ad_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.536697] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake/ad_msgs__rosidl_typesupport_cExport.cmake\n'}
+[4.536844] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake/ad_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.536996] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake/export_ad_msgs__rosidl_generator_cppExport.cmake\n'}
+[4.537150] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake/export_ad_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.537303] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake/export_ad_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.537452] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake/ad_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.537608] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake/ad_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.537758] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake/ad_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[4.537908] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake/ad_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.538061] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake/export_ad_msgs__rosidl_generator_pyExport.cmake\n'}
+[4.538242] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake/export_ad_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.538388] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[4.538527] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.538673] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.538822] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.538966] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.539110] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.539256] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.539398] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake/ad_msgsConfig.cmake\n'}
+[4.539504] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake/ad_msgsConfig-version.cmake\n'}
+[4.539638] (ad_msgs) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/package.xml\n'}
+[4.541543] (ad_msgs) CommandEnded: {'returncode': 0}
+[4.553630] (ad_msgs) JobEnded: {'identifier': 'ad_msgs', 'rc': 0}
+[4.554158] (autonomous_driving) JobStarted: {'identifier': 'autonomous_driving'}
+[4.558396] (autonomous_driving) JobProgress: {'identifier': 'autonomous_driving', 'progress': 'cmake'}
+[4.558686] (autonomous_driving) Command: {'cmd': ['/usr/bin/cmake', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving', '-DCMAKE_INSTALL_PREFIX=/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving'], 'cwd': '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/autonomous_driving', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/ohheemin'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('AI_AGENT', 'claude-code_2-1-307_agent'), ('LANGUAGE', 'ko:en'), ('USER', 'ohheemin'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('LC_TIME', 'ko_KR.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"ko","osLocale":"ko","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"ko","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('CLAUDE_AGENT_SDK_VERSION', '0.3.307'), ('CLAUDE_CODE_SESSION_ATTENDED', '1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib:/usr/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda/lib64'), ('CLAUDE_CODE_MESSAGING_TOKEN', 'dafade59fa11da78961e542d241f0aea'), ('HOME', '/home/ohheemin'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ohheemin/.nvm/versions/node/v20.20.2/bin'), ('NVM_INC', '/home/ohheemin/.nvm/versions/node/v20.20.2/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-5fc13ca4-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2182'), ('SYSTEMD_EXEC_PID', '2602'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CONDA_ROOT', '/home/ohheemin/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3595'), ('NVM_DIR', '/home/ohheemin/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ohheemin'), ('CLAUDE_CODE_EMIT_STARTUP_TIMING', '1'), ('JOURNAL_STREAM', '8:13499'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_QUESTION_PREVIEW_FORMAT', 'markdown'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ohheemin'), ('RMW_FASTRTPS_USE_SHM', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/ohheemin/.local/bin:/usr/local/cuda/bin:/home/ohheemin/.local/bin:/home/ohheemin/.nvm/versions/node/v20.20.2/bin:/home/ohheemin/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda/bin:/home/ohheemin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ohheemin:@/tmp/.ICE-unix/2579,unix/ohheemin:/tmp/.ICE-unix/2579'), ('INVOCATION_ID', '3eafeefdbc5d420faa54c7687efd721c'), ('PAPERSIZE', 'a4'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CLAUDE_EFFORT', 'medium'), ('DISPLAY', ':1'), ('CLAUDE_PID', '5195'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ohheemin/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('CLAUDE_CODE_SESSION_ID', '40ee00c4-a0fb-4190-8d6e-47309c73ff81'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('CMAKE_MODULE_PATH', '/usr/share/eigen3/cmake/:'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/ohheemin/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/autonomous_driving'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ohheemin/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/ohheemin/.config/Code/CachedData/7d842fb85a0275a4a8e4d7e040d2625abbf7f084'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/ohheemin/.vscode/extensions/anthropic.claude-code-2.1.307-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CLAUDE_CODE_ENABLE_TASKS', '0'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CLAUDE_CODE_MESSAGING_SOCKET', '/run/user/1000/cc-socks/5195.sock'), ('CMAKE_PREFIX_PATH', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs:/usr/share/eigen3/cmake/:/opt/ros/humble'), ('VSCODE_PID', '3595')]), 'shell': False}
+[4.595587] (autonomous_driving) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.606407] (-) TimerEvent: {}
+[4.630116] (autonomous_driving) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.635074] (autonomous_driving) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.682576] (autonomous_driving) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.686909] (autonomous_driving) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.687073] (autonomous_driving) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.687309] (autonomous_driving) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.689147] (autonomous_driving) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.706494] (-) TimerEvent: {}
+[4.745845] (autonomous_driving) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.750400] (autonomous_driving) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.750603] (autonomous_driving) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.750915] (autonomous_driving) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.752705] (autonomous_driving) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.806576] (-) TimerEvent: {}
+[4.872382] (autonomous_driving) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.906730] (-) TimerEvent: {}
+[4.937023] (autonomous_driving) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.967297] (autonomous_driving) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.970203] (autonomous_driving) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.975096] (autonomous_driving) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.982233] (autonomous_driving) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.991598] (autonomous_driving) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.006792] (-) TimerEvent: {}
+[5.026762] (autonomous_driving) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.029110] (autonomous_driving) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.104240] (autonomous_driving) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.106845] (-) TimerEvent: {}
+[5.126242] (autonomous_driving) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.156534] (autonomous_driving) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.164869] (autonomous_driving) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.207035] (-) TimerEvent: {}
+[5.218401] (autonomous_driving) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.218647] (autonomous_driving) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.274782] (autonomous_driving) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.275641] (autonomous_driving) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.307160] (-) TimerEvent: {}
+[5.361519] (autonomous_driving) StdoutLine: {'line': b'-- Found ad_msgs: 0.0.0 (/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/share/ad_msgs/cmake)\n'}
+[5.407230] (-) TimerEvent: {}
+[5.507508] (-) TimerEvent: {}
+[5.607822] (-) TimerEvent: {}
+[5.708047] (-) TimerEvent: {}
+[5.713555] (autonomous_driving) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.734405] (autonomous_driving) StdoutLine: {'line': b'-- Generating done\n'}
+[5.742550] (autonomous_driving) StdoutLine: {'line': b'-- Build files have been written to: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/autonomous_driving\n'}
+[5.755001] (autonomous_driving) CommandEnded: {'returncode': 0}
+[5.755581] (autonomous_driving) JobProgress: {'identifier': 'autonomous_driving', 'progress': 'build'}
+[5.755825] (autonomous_driving) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/autonomous_driving', '--', '-j32', '-l32'], 'cwd': '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/autonomous_driving', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/ohheemin'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('AI_AGENT', 'claude-code_2-1-307_agent'), ('LANGUAGE', 'ko:en'), ('USER', 'ohheemin'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('LC_TIME', 'ko_KR.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"ko","osLocale":"ko","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"ko","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('CLAUDE_AGENT_SDK_VERSION', '0.3.307'), ('CLAUDE_CODE_SESSION_ATTENDED', '1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib:/usr/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda/lib64'), ('CLAUDE_CODE_MESSAGING_TOKEN', 'dafade59fa11da78961e542d241f0aea'), ('HOME', '/home/ohheemin'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ohheemin/.nvm/versions/node/v20.20.2/bin'), ('NVM_INC', '/home/ohheemin/.nvm/versions/node/v20.20.2/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-5fc13ca4-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2182'), ('SYSTEMD_EXEC_PID', '2602'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CONDA_ROOT', '/home/ohheemin/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3595'), ('NVM_DIR', '/home/ohheemin/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ohheemin'), ('CLAUDE_CODE_EMIT_STARTUP_TIMING', '1'), ('JOURNAL_STREAM', '8:13499'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_QUESTION_PREVIEW_FORMAT', 'markdown'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ohheemin'), ('RMW_FASTRTPS_USE_SHM', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/ohheemin/.local/bin:/usr/local/cuda/bin:/home/ohheemin/.local/bin:/home/ohheemin/.nvm/versions/node/v20.20.2/bin:/home/ohheemin/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda/bin:/home/ohheemin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ohheemin:@/tmp/.ICE-unix/2579,unix/ohheemin:/tmp/.ICE-unix/2579'), ('INVOCATION_ID', '3eafeefdbc5d420faa54c7687efd721c'), ('PAPERSIZE', 'a4'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CLAUDE_EFFORT', 'medium'), ('DISPLAY', ':1'), ('CLAUDE_PID', '5195'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ohheemin/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('CLAUDE_CODE_SESSION_ID', '40ee00c4-a0fb-4190-8d6e-47309c73ff81'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('CMAKE_MODULE_PATH', '/usr/share/eigen3/cmake/:'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/ohheemin/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/autonomous_driving'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ohheemin/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/ohheemin/.config/Code/CachedData/7d842fb85a0275a4a8e4d7e040d2625abbf7f084'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/ohheemin/.vscode/extensions/anthropic.claude-code-2.1.307-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CLAUDE_CODE_ENABLE_TASKS', '0'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CLAUDE_CODE_MESSAGING_SOCKET', '/run/user/1000/cc-socks/5195.sock'), ('CMAKE_PREFIX_PATH', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs:/usr/share/eigen3/cmake/:/opt/ros/humble'), ('VSCODE_PID', '3595')]), 'shell': False}
+[5.792170] (autonomous_driving) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/autonomous_driving.dir/src/autonomous_driving.cpp.o\n'}
+[5.808127] (-) TimerEvent: {}
+[5.908286] (-) TimerEvent: {}
+[6.008570] (-) TimerEvent: {}
+[6.108888] (-) TimerEvent: {}
+[6.209116] (-) TimerEvent: {}
+[6.309347] (-) TimerEvent: {}
+[6.409691] (-) TimerEvent: {}
+[6.510032] (-) TimerEvent: {}
+[6.610374] (-) TimerEvent: {}
+[6.710768] (-) TimerEvent: {}
+[6.811081] (-) TimerEvent: {}
+[6.911408] (-) TimerEvent: {}
+[7.011695] (-) TimerEvent: {}
+[7.111989] (-) TimerEvent: {}
+[7.212291] (-) TimerEvent: {}
+[7.312537] (-) TimerEvent: {}
+[7.412873] (-) TimerEvent: {}
+[7.513280] (-) TimerEvent: {}
+[7.613558] (-) TimerEvent: {}
+[7.713789] (-) TimerEvent: {}
+[7.814070] (-) TimerEvent: {}
+[7.914375] (-) TimerEvent: {}
+[8.014611] (-) TimerEvent: {}
+[8.114865] (-) TimerEvent: {}
+[8.215177] (-) TimerEvent: {}
+[8.315543] (-) TimerEvent: {}
+[8.415936] (-) TimerEvent: {}
+[8.516399] (-) TimerEvent: {}
+[8.616827] (-) TimerEvent: {}
+[8.717183] (-) TimerEvent: {}
+[8.817491] (-) TimerEvent: {}
+[8.917965] (-) TimerEvent: {}
+[9.018454] (-) TimerEvent: {}
+[9.118871] (-) TimerEvent: {}
+[9.219339] (-) TimerEvent: {}
+[9.319664] (-) TimerEvent: {}
+[9.420115] (-) TimerEvent: {}
+[9.520581] (-) TimerEvent: {}
+[9.566336] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp: In member function \xe2\x80\x98void AutonomousDriving::Init(const rclcpp::Time&)\xe2\x80\x99:\n'}
+[9.566507] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:132:50: warning: unused parameter \xe2\x80\x98current_time\xe2\x80\x99 [-Wunused-parameter]\n'}
+[9.566547] (autonomous_driving) StderrLine: {'line': b'  132 | void AutonomousDriving::Init(const rclcpp::Time &current_time) {\n'}
+[9.566579] (autonomous_driving) StderrLine: {'line': b'      |                              ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\n'}
+[9.567042] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp: In member function \xe2\x80\x98void AutonomousDriving::Run(const rclcpp::Time&)\xe2\x80\x99:\n'}
+[9.567074] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:153:12: warning: unused variable \xe2\x80\x98limit_speed\xe2\x80\x99 [-Wunused-variable]\n'}
+[9.567101] (autonomous_driving) StderrLine: {'line': b'  153 |     double limit_speed = i_limit_speed_;\n'}
+[9.567128] (autonomous_driving) StderrLine: {'line': b'      |            ^~~~~~~~~~~\n'}
+[9.620674] (-) TimerEvent: {}
+[9.660429] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp: In member function \xe2\x80\x98ad_msgs::msg::PolyfitLaneData AutonomousDriving::FindDrivingWay(const VehicleOutput&, const LanePointData&)\xe2\x80\x99:\n'}
+[9.660866] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:220:100: warning: unused parameter \xe2\x80\x98vehicle_state\xe2\x80\x99 [-Wunused-parameter]\n'}
+[9.660926] (autonomous_driving) StderrLine: {'line': b'  220 | ad_msgs::msg::PolyfitLaneData AutonomousDriving::FindDrivingWay(const ad_msgs::msg::VehicleOutput &vehicle_state,\n'}
+[9.660979] (autonomous_driving) StderrLine: {'line': b'      |                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\n'}
+[9.661024] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp: In member function \xe2\x80\x98double AutonomousDriving::LateralControl(const VehicleOutput&, const PolyfitLaneData&)\xe2\x80\x99:\n'}
+[9.661103] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:319:12: warning: unused variable \xe2\x80\x98l_xd\xe2\x80\x99 [-Wunused-variable]\n'}
+[9.661156] (autonomous_driving) StderrLine: {'line': b'  319 |     double l_xd; // look-ahead distance [m]\n'}
+[9.661203] (autonomous_driving) StderrLine: {'line': b'      |            ^~~~\n'}
+[9.661244] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:320:12: warning: unused variable \xe2\x80\x98g_x\xe2\x80\x99 [-Wunused-variable]\n'}
+[9.661286] (autonomous_driving) StderrLine: {'line': b'  320 |     double g_x, g_y; // look-ahead point coordinates [m]\n'}
+[9.661327] (autonomous_driving) StderrLine: {'line': b'      |            ^~~\n'}
+[9.661366] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:320:17: warning: unused variable \xe2\x80\x98g_y\xe2\x80\x99 [-Wunused-variable]\n'}
+[9.661406] (autonomous_driving) StderrLine: {'line': b'  320 |     double g_x, g_y; // look-ahead point coordinates [m]\n'}
+[9.661449] (autonomous_driving) StderrLine: {'line': b'      |                 ^~~\n'}
+[9.661492] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:321:12: warning: unused variable \xe2\x80\x98l_d\xe2\x80\x99 [-Wunused-variable]\n'}
+[9.661536] (autonomous_driving) StderrLine: {'line': b'  321 |     double l_d; // distance between vehicle and look-ahead point [m]\n'}
+[9.661634] (autonomous_driving) StderrLine: {'line': b'      |            ^~~\n'}
+[9.661676] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:306:77: warning: unused parameter \xe2\x80\x98vehicle_state\xe2\x80\x99 [-Wunused-parameter]\n'}
+[9.661717] (autonomous_driving) StderrLine: {'line': b'  306 | double AutonomousDriving::LateralControl(const ad_msgs::msg::VehicleOutput &vehicle_state,\n'}
+[9.661757] (autonomous_driving) StderrLine: {'line': b'      |                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\n'}
+[9.661798] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:307:80: warning: unused parameter \xe2\x80\x98driving_way\xe2\x80\x99 [-Wunused-parameter]\n'}
+[9.661840] (autonomous_driving) StderrLine: {'line': b'  307 |                                           const ad_msgs::msg::PolyfitLaneData &driving_way) {\n'}
+[9.661881] (autonomous_driving) StderrLine: {'line': b'      |                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\n'}
+[9.661925] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp: In member function \xe2\x80\x98void AutonomousDriving::Publish(const rclcpp::Time&)\xe2\x80\x99:\n'}
+[9.661966] (autonomous_driving) StderrLine: {'line': b'/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:341:53: warning: unused parameter \xe2\x80\x98current_time\xe2\x80\x99 [-Wunused-parameter]\n'}
+[9.662006] (autonomous_driving) StderrLine: {'line': b'  341 | void AutonomousDriving::Publish(const rclcpp::Time &current_time) {\n'}
+[9.662046] (autonomous_driving) StderrLine: {'line': b'      |                                 ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\n'}
+[9.720809] (-) TimerEvent: {}
+[9.821047] (-) TimerEvent: {}
+[9.921317] (-) TimerEvent: {}
+[10.021609] (-) TimerEvent: {}
+[10.121956] (-) TimerEvent: {}
+[10.222432] (-) TimerEvent: {}
+[10.322819] (-) TimerEvent: {}
+[10.423220] (-) TimerEvent: {}
+[10.523619] (-) TimerEvent: {}
+[10.623965] (-) TimerEvent: {}
+[10.724256] (-) TimerEvent: {}
+[10.824514] (-) TimerEvent: {}
+[10.924789] (-) TimerEvent: {}
+[11.024959] (-) TimerEvent: {}
+[11.125219] (-) TimerEvent: {}
+[11.225482] (-) TimerEvent: {}
+[11.325756] (-) TimerEvent: {}
+[11.426112] (-) TimerEvent: {}
+[11.526500] (-) TimerEvent: {}
+[11.626776] (-) TimerEvent: {}
+[11.727057] (-) TimerEvent: {}
+[11.827343] (-) TimerEvent: {}
+[11.927624] (-) TimerEvent: {}
+[12.027920] (-) TimerEvent: {}
+[12.128217] (-) TimerEvent: {}
+[12.228468] (-) TimerEvent: {}
+[12.328735] (-) TimerEvent: {}
+[12.429012] (-) TimerEvent: {}
+[12.529313] (-) TimerEvent: {}
+[12.629487] (-) TimerEvent: {}
+[12.729681] (-) TimerEvent: {}
+[12.829864] (-) TimerEvent: {}
+[12.930104] (-) TimerEvent: {}
+[13.030367] (-) TimerEvent: {}
+[13.130537] (-) TimerEvent: {}
+[13.230701] (-) TimerEvent: {}
+[13.330884] (-) TimerEvent: {}
+[13.431072] (-) TimerEvent: {}
+[13.531292] (-) TimerEvent: {}
+[13.631511] (-) TimerEvent: {}
+[13.731743] (-) TimerEvent: {}
+[13.831964] (-) TimerEvent: {}
+[13.932184] (-) TimerEvent: {}
+[14.032389] (-) TimerEvent: {}
+[14.132575] (-) TimerEvent: {}
+[14.232759] (-) TimerEvent: {}
+[14.333031] (-) TimerEvent: {}
+[14.433440] (-) TimerEvent: {}
+[14.533872] (-) TimerEvent: {}
+[14.634283] (-) TimerEvent: {}
+[14.734591] (-) TimerEvent: {}
+[14.834875] (-) TimerEvent: {}
+[14.935299] (-) TimerEvent: {}
+[15.035680] (-) TimerEvent: {}
+[15.135957] (-) TimerEvent: {}
+[15.236201] (-) TimerEvent: {}
+[15.336377] (-) TimerEvent: {}
+[15.436654] (-) TimerEvent: {}
+[15.537079] (-) TimerEvent: {}
+[15.637505] (-) TimerEvent: {}
+[15.737857] (-) TimerEvent: {}
+[15.838297] (-) TimerEvent: {}
+[15.938757] (-) TimerEvent: {}
+[16.039182] (-) TimerEvent: {}
+[16.139583] (-) TimerEvent: {}
+[16.239890] (-) TimerEvent: {}
+[16.340215] (-) TimerEvent: {}
+[16.440524] (-) TimerEvent: {}
+[16.540825] (-) TimerEvent: {}
+[16.641076] (-) TimerEvent: {}
+[16.741494] (-) TimerEvent: {}
+[16.841835] (-) TimerEvent: {}
+[16.942308] (-) TimerEvent: {}
+[17.042710] (-) TimerEvent: {}
+[17.143091] (-) TimerEvent: {}
+[17.243429] (-) TimerEvent: {}
+[17.343750] (-) TimerEvent: {}
+[17.444169] (-) TimerEvent: {}
+[17.544602] (-) TimerEvent: {}
+[17.645056] (-) TimerEvent: {}
+[17.745473] (-) TimerEvent: {}
+[17.845861] (-) TimerEvent: {}
+[17.946280] (-) TimerEvent: {}
+[18.046534] (-) TimerEvent: {}
+[18.146710] (-) TimerEvent: {}
+[18.246876] (-) TimerEvent: {}
+[18.347038] (-) TimerEvent: {}
+[18.447200] (-) TimerEvent: {}
+[18.547359] (-) TimerEvent: {}
+[18.647503] (-) TimerEvent: {}
+[18.747757] (-) TimerEvent: {}
+[18.848035] (-) TimerEvent: {}
+[18.948421] (-) TimerEvent: {}
+[19.048815] (-) TimerEvent: {}
+[19.149272] (-) TimerEvent: {}
+[19.249690] (-) TimerEvent: {}
+[19.349985] (-) TimerEvent: {}
+[19.450195] (-) TimerEvent: {}
+[19.550413] (-) TimerEvent: {}
+[19.650586] (-) TimerEvent: {}
+[19.750769] (-) TimerEvent: {}
+[19.850934] (-) TimerEvent: {}
+[19.951091] (-) TimerEvent: {}
+[20.051242] (-) TimerEvent: {}
+[20.151388] (-) TimerEvent: {}
+[20.251535] (-) TimerEvent: {}
+[20.351670] (-) TimerEvent: {}
+[20.451798] (-) TimerEvent: {}
+[20.551944] (-) TimerEvent: {}
+[20.652098] (-) TimerEvent: {}
+[20.752274] (-) TimerEvent: {}
+[20.852438] (-) TimerEvent: {}
+[20.952590] (-) TimerEvent: {}
+[21.052751] (-) TimerEvent: {}
+[21.152911] (-) TimerEvent: {}
+[21.253068] (-) TimerEvent: {}
+[21.353214] (-) TimerEvent: {}
+[21.453376] (-) TimerEvent: {}
+[21.553547] (-) TimerEvent: {}
+[21.653714] (-) TimerEvent: {}
+[21.753895] (-) TimerEvent: {}
+[21.854070] (-) TimerEvent: {}
+[21.954254] (-) TimerEvent: {}
+[22.054426] (-) TimerEvent: {}
+[22.154597] (-) TimerEvent: {}
+[22.254773] (-) TimerEvent: {}
+[22.354952] (-) TimerEvent: {}
+[22.455116] (-) TimerEvent: {}
+[22.555294] (-) TimerEvent: {}
+[22.655439] (-) TimerEvent: {}
+[22.755605] (-) TimerEvent: {}
+[22.855778] (-) TimerEvent: {}
+[22.955949] (-) TimerEvent: {}
+[23.056104] (-) TimerEvent: {}
+[23.156272] (-) TimerEvent: {}
+[23.256440] (-) TimerEvent: {}
+[23.356602] (-) TimerEvent: {}
+[23.456792] (-) TimerEvent: {}
+[23.556960] (-) TimerEvent: {}
+[23.657139] (-) TimerEvent: {}
+[23.757336] (-) TimerEvent: {}
+[23.857509] (-) TimerEvent: {}
+[23.957691] (-) TimerEvent: {}
+[24.057869] (-) TimerEvent: {}
+[24.158030] (-) TimerEvent: {}
+[24.258246] (-) TimerEvent: {}
+[24.358436] (-) TimerEvent: {}
+[24.458593] (-) TimerEvent: {}
+[24.558738] (-) TimerEvent: {}
+[24.658921] (-) TimerEvent: {}
+[24.759081] (-) TimerEvent: {}
+[24.859303] (-) TimerEvent: {}
+[24.959502] (-) TimerEvent: {}
+[25.059655] (-) TimerEvent: {}
+[25.159811] (-) TimerEvent: {}
+[25.260024] (-) TimerEvent: {}
+[25.360220] (-) TimerEvent: {}
+[25.460475] (-) TimerEvent: {}
+[25.560708] (-) TimerEvent: {}
+[25.660972] (-) TimerEvent: {}
+[25.761370] (-) TimerEvent: {}
+[25.861682] (-) TimerEvent: {}
+[25.961980] (-) TimerEvent: {}
+[26.062387] (-) TimerEvent: {}
+[26.162862] (-) TimerEvent: {}
+[26.263317] (-) TimerEvent: {}
+[26.363713] (-) TimerEvent: {}
+[26.464052] (-) TimerEvent: {}
+[26.564407] (-) TimerEvent: {}
+[26.664777] (-) TimerEvent: {}
+[26.765161] (-) TimerEvent: {}
+[26.865551] (-) TimerEvent: {}
+[26.965852] (-) TimerEvent: {}
+[27.066035] (-) TimerEvent: {}
+[27.166477] (-) TimerEvent: {}
+[27.266759] (-) TimerEvent: {}
+[27.367107] (-) TimerEvent: {}
+[27.467465] (-) TimerEvent: {}
+[27.567795] (-) TimerEvent: {}
+[27.662674] (autonomous_driving) StdoutLine: {'line': b'[100%] Linking CXX executable autonomous_driving\n'}
+[27.667856] (-) TimerEvent: {}
+[27.768174] (-) TimerEvent: {}
+[27.868571] (-) TimerEvent: {}
+[27.968937] (-) TimerEvent: {}
+[28.069293] (-) TimerEvent: {}
+[28.169590] (-) TimerEvent: {}
+[28.269983] (-) TimerEvent: {}
+[28.370299] (-) TimerEvent: {}
+[28.470650] (-) TimerEvent: {}
+[28.571079] (-) TimerEvent: {}
+[28.671503] (-) TimerEvent: {}
+[28.771920] (-) TimerEvent: {}
+[28.872150] (-) TimerEvent: {}
+[28.972553] (-) TimerEvent: {}
+[29.072968] (-) TimerEvent: {}
+[29.086205] (autonomous_driving) StdoutLine: {'line': b'[100%] Built target autonomous_driving\n'}
+[29.096514] (autonomous_driving) CommandEnded: {'returncode': 0}
+[29.097447] (autonomous_driving) JobProgress: {'identifier': 'autonomous_driving', 'progress': 'install'}
+[29.097841] (autonomous_driving) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/autonomous_driving'], 'cwd': '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/autonomous_driving', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/ohheemin'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('AI_AGENT', 'claude-code_2-1-307_agent'), ('LANGUAGE', 'ko:en'), ('USER', 'ohheemin'), ('CLAUDE_CODE_ENTRYPOINT', 'claude-vscode'), ('LC_TIME', 'ko_KR.UTF-8'), ('VSCODE_NLS_CONFIG', '{"userLocale":"ko","osLocale":"ko","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"ko","availableLanguages":{}}'), ('GIT_EDITOR', 'true'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('CLAUDE_AGENT_SDK_VERSION', '0.3.307'), ('CLAUDE_CODE_SESSION_ATTENDED', '1'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/lib:/usr/lib/x86_64-linux-gnu:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib:/usr/local/cuda/lib64'), ('CLAUDE_CODE_MESSAGING_TOKEN', 'dafade59fa11da78961e542d241f0aea'), ('HOME', '/home/ohheemin'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/ohheemin/.nvm/versions/node/v20.20.2/bin'), ('NVM_INC', '/home/ohheemin/.nvm/versions/node/v20.20.2/include/node'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-5fc13ca4-1.10-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLAUDE_CODE_CHILD_SESSION', '1'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '2182'), ('SYSTEMD_EXEC_PID', '2602'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CONDA_ROOT', '/home/ohheemin/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3595'), ('NVM_DIR', '/home/ohheemin/.nvm'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('VSCODE_L10N_BUNDLE_LOCATION', ''), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ohheemin'), ('CLAUDE_CODE_EMIT_STARTUP_TIMING', '1'), ('JOURNAL_STREAM', '8:13499'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CLAUDE_CODE_QUESTION_PREVIEW_FORMAT', 'markdown'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ohheemin'), ('RMW_FASTRTPS_USE_SHM', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MCP_CONNECTION_NONBLOCKING', 'true'), ('PATH', '/home/ohheemin/.local/bin:/usr/local/cuda/bin:/home/ohheemin/.local/bin:/home/ohheemin/.nvm/versions/node/v20.20.2/bin:/home/ohheemin/miniconda3/condabin:/opt/ros/humble/bin:/usr/local/cuda/bin:/home/ohheemin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ohheemin:@/tmp/.ICE-unix/2579,unix/ohheemin:/tmp/.ICE-unix/2579'), ('INVOCATION_ID', '3eafeefdbc5d420faa54c7687efd721c'), ('PAPERSIZE', 'a4'), ('COREPACK_ENABLE_AUTO_PIN', '0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('CLAUDE_EFFORT', 'medium'), ('DISPLAY', ':1'), ('CLAUDE_PID', '5195'), ('NoDefaultCurrentDirectoryInExePath', '1'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/ohheemin/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING', 'true'), ('CLAUDE_CODE_SESSION_ID', '40ee00c4-a0fb-4190-8d6e-47309c73ff81'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CLAUDECODE', '1'), ('CMAKE_MODULE_PATH', '/usr/share/eigen3/cmake/:'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/ohheemin/miniconda3/bin/conda'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/build/autonomous_driving'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/ohheemin/miniconda3/bin/conda'), ('VSCODE_CODE_CACHE_PATH', '/home/ohheemin/.config/Code/CachedData/7d842fb85a0275a4a8e4d7e040d2625abbf7f084'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CLAUDE_CODE_EXECPATH', '/home/ohheemin/.vscode/extensions/anthropic.claude-code-2.1.307-linux-x64/resources/native-binary/claude'), ('PYTHONPATH', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('CLAUDE_CODE_ENABLE_TASKS', '0'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CLAUDE_CODE_MESSAGING_SOCKET', '/run/user/1000/cc-socks/5195.sock'), ('CMAKE_PREFIX_PATH', '/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/ad_msgs:/usr/share/eigen3/cmake/:/opt/ros/humble'), ('VSCODE_PID', '3595')]), 'shell': False}
+[29.105127] (autonomous_driving) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.105300] (autonomous_driving) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/lib/autonomous_driving/autonomous_driving\n'}
+[29.119521] (autonomous_driving) StdoutLine: {'line': b'-- Set runtime path of "/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/lib/autonomous_driving/autonomous_driving" to ""\n'}
+[29.119665] (autonomous_driving) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/launch\n'}
+[29.119745] (autonomous_driving) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/launch/autonomous_driving.launch.xml\n'}
+[29.120839] (autonomous_driving) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/launch/manual_driving.launch.xml\n'}
+[29.121023] (autonomous_driving) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/lib/autonomous_driving/simultaneous_inputs.py\n'}
+[29.121276] (autonomous_driving) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/ament_index/resource_index/package_run_dependencies/autonomous_driving\n'}
+[29.121433] (autonomous_driving) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/ament_index/resource_index/parent_prefix_path/autonomous_driving\n'}
+[29.121559] (autonomous_driving) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/environment/ament_prefix_path.sh\n'}
+[29.121651] (autonomous_driving) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/environment/ament_prefix_path.dsv\n'}
+[29.121736] (autonomous_driving) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/environment/path.sh\n'}
+[29.121883] (autonomous_driving) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/environment/path.dsv\n'}
+[29.122004] (autonomous_driving) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/local_setup.bash\n'}
+[29.122093] (autonomous_driving) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/local_setup.sh\n'}
+[29.122209] (autonomous_driving) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/local_setup.zsh\n'}
+[29.122303] (autonomous_driving) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/local_setup.dsv\n'}
+[29.122397] (autonomous_driving) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/package.dsv\n'}
+[29.122540] (autonomous_driving) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/ament_index/resource_index/packages/autonomous_driving\n'}
+[29.122661] (autonomous_driving) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/cmake/autonomous_drivingConfig.cmake\n'}
+[29.122757] (autonomous_driving) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/cmake/autonomous_drivingConfig-version.cmake\n'}
+[29.122845] (autonomous_driving) StdoutLine: {'line': b'-- Installing: /home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/install/autonomous_driving/share/autonomous_driving/package.xml\n'}
+[29.124991] (autonomous_driving) CommandEnded: {'returncode': 0}
+[29.133194] (autonomous_driving) JobEnded: {'identifier': 'autonomous_driving', 'rc': 0}
+[29.133674] (-) EventReactorShutdown: {}

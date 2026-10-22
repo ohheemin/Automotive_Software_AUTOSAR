@@ -1,0 +1,23 @@
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/bsw/system/interface/interface_lane.cpp: In member function ‘bool SLanes::ImportLaneCsvFile(std::string)’:
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/bsw/system/interface/interface_lane.cpp:26:9: warning: unused variable ‘nLaneID’ [-Wunused-variable]
+   26 |     int nLaneID = 0;
+      |         ^~~~~~~
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/simulator/src/lane_detection/lane_detection_algorithm.cpp: In member function ‘interface::Lanes LaneDetectionAlgorithm::LoadLanesData()’:
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/simulator/src/lane_detection/lane_detection_algorithm.cpp:36:34: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<SLane>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   36 |     for (auto i_lane = 0; i_lane < ref_csv_lane.m_vecLanes.size(); i_lane++) {
+      |                           ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/simulator/src/lane_detection/lane_detection_algorithm.cpp:41:40: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::vector<SLanePoint>::size_type’ {aka ‘long unsigned int’} [-Wsign-compare]
+   41 |         for (auto i_point = 0; i_point < ref_csv_lane.m_vecLanes[i_lane].m_vecLanePoint.size(); i_point++) {
+      |                                ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/simulator/src/vehicle/vehicle_simulator_node.cpp: In member function ‘void Vehicle::Publish(const rclcpp::Time&)’:
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/simulator/src/vehicle/vehicle_simulator_node.cpp:116:43: warning: unused parameter ‘current_time’ [-Wunused-parameter]
+  116 | void Vehicle::Publish(const rclcpp::Time& current_time) {
+      |                       ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/simulator/src/display/display_node.cpp: In member function ‘void Display::Init(const rclcpp::Time&)’:
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/simulator/src/display/display_node.cpp:88:40: warning: unused parameter ‘current_time’ [-Wunused-parameter]
+   88 | void Display::Init(const rclcpp::Time& current_time) {
+      |                    ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/simulator/src/lane_detection/lane_detection_node.cpp: In member function ‘void LaneDetection::Init(const rclcpp::Time&)’:
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/simulator/src/lane_detection/lane_detection_node.cpp:91:46: warning: unused parameter ‘current_time’ [-Wunused-parameter]
+   91 | void LaneDetection::Init(const rclcpp::Time& current_time) {
+      |                          ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~

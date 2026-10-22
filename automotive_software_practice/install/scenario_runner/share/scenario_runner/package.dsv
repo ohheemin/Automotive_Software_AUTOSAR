@@ -1,0 +1,8 @@
+source;share/scenario_runner/hook/cmake_prefix_path.ps1
+source;share/scenario_runner/hook/cmake_prefix_path.dsv
+source;share/scenario_runner/hook/cmake_prefix_path.sh
+source;share/scenario_runner/local_setup.bash
+source;share/scenario_runner/local_setup.dsv
+source;share/scenario_runner/local_setup.ps1
+source;share/scenario_runner/local_setup.sh
+source;share/scenario_runner/local_setup.zsh

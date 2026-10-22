@@ -1,0 +1,35 @@
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp: In member function ‘void AutonomousDriving::Init(const rclcpp::Time&)’:
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:132:50: warning: unused parameter ‘current_time’ [-Wunused-parameter]
+  132 | void AutonomousDriving::Init(const rclcpp::Time &current_time) {
+      |                              ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp: In member function ‘void AutonomousDriving::Run(const rclcpp::Time&)’:
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:153:12: warning: unused variable ‘limit_speed’ [-Wunused-variable]
+  153 |     double limit_speed = i_limit_speed_;
+      |            ^~~~~~~~~~~
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp: In member function ‘ad_msgs::msg::PolyfitLaneData AutonomousDriving::FindDrivingWay(const VehicleOutput&, const LanePointData&)’:
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:221:100: warning: unused parameter ‘vehicle_state’ [-Wunused-parameter]
+  221 | ad_msgs::msg::PolyfitLaneData AutonomousDriving::FindDrivingWay(const ad_msgs::msg::VehicleOutput &vehicle_state,
+      |                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp: In member function ‘double AutonomousDriving::LateralControl(const VehicleOutput&, const PolyfitLaneData&)’:
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:320:12: warning: unused variable ‘l_xd’ [-Wunused-variable]
+  320 |     double l_xd; // look-ahead distance [m]
+      |            ^~~~
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:321:12: warning: unused variable ‘g_x’ [-Wunused-variable]
+  321 |     double g_x, g_y; // look-ahead point coordinates [m]
+      |            ^~~
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:321:17: warning: unused variable ‘g_y’ [-Wunused-variable]
+  321 |     double g_x, g_y; // look-ahead point coordinates [m]
+      |                 ^~~
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:322:12: warning: unused variable ‘l_d’ [-Wunused-variable]
+  322 |     double l_d; // distance between vehicle and look-ahead point [m]
+      |            ^~~
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:307:77: warning: unused parameter ‘vehicle_state’ [-Wunused-parameter]
+  307 | double AutonomousDriving::LateralControl(const ad_msgs::msg::VehicleOutput &vehicle_state,
+      |                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:308:80: warning: unused parameter ‘driving_way’ [-Wunused-parameter]
+  308 |                                           const ad_msgs::msg::PolyfitLaneData &driving_way) {
+      |                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp: In member function ‘void AutonomousDriving::Publish(const rclcpp::Time&)’:
+/home/ohheemin/Practice_11_Lane_Detection_and_Lateral_Control_code/automotive_software_practice/src/app/autonomous_driving/src/autonomous_driving.cpp:342:53: warning: unused parameter ‘current_time’ [-Wunused-parameter]
+  342 | void AutonomousDriving::Publish(const rclcpp::Time &current_time) {
+      |                                 ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
