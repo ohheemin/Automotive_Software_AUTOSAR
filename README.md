@@ -1,4 +1,4 @@
-# Practice 11: Lane Detection and Lateral Control
+# Lane Detection and Lateral Control
 
 A ROS2 Humble simulator exercise: estimate the driving path (center line) from lane points, then compute the steering angle with Pure Pursuit.
 
