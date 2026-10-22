@@ -54,7 +54,7 @@ automotive_software_practice/
 [simulator/display] : /ego/driving_way → /ego/driving_way_marker (yellow dotted line in RViz)
 ```
 
-## Key Messages (`src/rte/msg/ad_msgs/msg`)
+## Custom msgs (`src/rte/msg/ad_msgs/msg`)
 
 | Message | Fields | Description |
 |---|---|---|
@@ -64,36 +64,6 @@ automotive_software_practice/
 | `VehicleOutput` | `x`, `y`, `yaw`, `velocity`, ... | Vehicle state |
 
 Vehicle frame: origin = vehicle, **x = forward**, **y = left** (REP-103).
-
-## Algorithm
-
-### TODO1. `FindDrivingWay()`: Center Line Estimation
-
-1. **Left/right classification**: Substitute each point's x into the previous frame's center line (`previous_middle_lane`) to get `y_center`, then use `center2point = p.y - y_center`.
-   - `|center2point| > maximum_distance` → discarded (adjacent lane, noise)
-   - `center2point > 0` → left lane, otherwise → right lane
-   - In the first frame all coefficients are 0, so this is the same as splitting by `y = 0`. After that, the reference line bends with the road, so classification still works in curves.
-2. **Least-squares fit**: For each lane, build `X = [1, x, x², x³]` (N×4) and `Y = [y]` (N×1), then compute `A = (XᵀX)⁻¹XᵀY`. Skipped if a lane has fewer than 4 points.
-3. **Center line**: If both lanes are fitted, average their coefficients; otherwise keep the previous center line. The result is stored in `previous_middle_lane` as the reference for the next frame.
-
-### TODO2. `LateralControl()`: Pure Pursuit (not implemented)
-
-1. Look-ahead distance `l_xd = kd + kv · v`
-2. Look-ahead point `g_x = l_xd`, `g_y = a0 + a1·g_x + a2·g_x² + a3·g_x³`
-3. `l_d = √(g_x² + g_y²)`
-4. `steering = atan2(2 · L · g_y, l_d²)` (`L = param_wheel_base_`)
-
-## Parameters
-
-| Location | Name | Value | Meaning |
-|---|---|---|---|
-| `autonomous_driving.hpp` | `maximum_distance` | 2.5 m | Points farther than this from the previous center line are discarded |
-| `autonomous_driving.launch.xml` | `use_manual_inputs` | false | If true, accel/brake/steering come from the keyboard |
-| | `pure_pursuit_kd` / `kv` | 5.0 / 0.35 | Look-ahead distance gains |
-| `simulation.launch.xml` | `ROIFront` / `ROIRear` | 20 / 5 m | Forward/backward range of lane points |
-| | `ROILeft` / `ROIRight` | 4 / 4 m | Left/right range of lane points |
-
-Note: Lanes on the map are 4 m apart (lane lines at y = -2, 2, 6), so each lane line is about 2 m from the center line. If `maximum_distance` is set below 2 m, all points of the ego lane are discarded. About 30 points per lane line are received (spacing about 0.84 m).
 
 ## Build
 
