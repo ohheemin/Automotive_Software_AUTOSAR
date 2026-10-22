@@ -2,7 +2,7 @@
 
 Estimating process of the driving path (center line) from lane points, then compute the steering angle with Pure Pursuit.
 
-<img width="600" height="350" alt="image" src="https://github.com/user-attachments/assets/3dc92292-7809-4992-80ed-3608454f8670" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/3dc92292-7809-4992-80ed-3608454f8670" />
 
 
 ## Assignment
