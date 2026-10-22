@@ -248,7 +248,8 @@ ad_msgs::msg::PolyfitLaneData AutonomousDriving::FindDrivingWay(const ad_msgs::m
                         + previous_middle_lane.a2 * p.x * p.x + previous_middle_lane.a3 * p.x * p.x * p.x;
         // 이전 프레임에서 구한 3차 함수에 현재 점의 x좌표를 대입. 그 위치의 중앙선 y값을 계산.
         double center2point = p.y - y_center;
-
+        // 그 후에 중앙선으로부터의 거리 구해줌. y좌표에서만.
+ 
         if (std::fabs(center2point) > maximum_distance) 
             continue;
 
