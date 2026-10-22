@@ -252,6 +252,7 @@ ad_msgs::msg::PolyfitLaneData AutonomousDriving::FindDrivingWay(const ad_msgs::m
  
         if (std::fabs(center2point) > maximum_distance) 
             continue;
+        // std::fabs는 
 
         if (center2point > 0.0) left_points.push_back(p);
         else          right_points.push_back(p);
