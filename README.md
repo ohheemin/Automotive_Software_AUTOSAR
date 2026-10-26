@@ -1,21 +1,9 @@
-# Lane Detection and Lateral Control
+# LD and LC
 
 Estimating process of the driving path (center line) from lane points, then compute the steering angle
 
 <img width="580" height="400" alt="image" src="https://github.com/user-attachments/assets/3dc92292-7809-4992-80ed-3608454f8670" />
 
-
-## Assignment
-
-Only two files in the `autonomous_driving` package are edited.
-
-| File | Task | Status |
-|---|---|---|
-| `src/app/autonomous_driving/src/autonomous_driving.cpp` | TODO1 `FindDrivingWay()`: lane points → cubic polynomial of the center line | Done |
-| | TODO2 `LateralControl()`: center line → steering angle (Pure Pursuit) | Not implemented |
-| `src/app/autonomous_driving/include/autonomous_driving.hpp` | Add member variables needed by the algorithm | Added `previous_middle_lane`, `maximum_distance` |
-
-The other packages (`simulator`, `scenario_runner`, `evaluation`, `ad_msgs`) are provided as the exercise environment and are not modified.
 
 ## Directory Structure
 
